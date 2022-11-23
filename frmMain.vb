@@ -1,4 +1,4 @@
-Option Explicit On 
+Option Explicit On
 
 Imports System.Windows.Forms
 Imports System.ComponentModel
@@ -56,16 +56,16 @@ Namespace nsForms
 
 
         <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-            Me.TabControl1 = New System.Windows.Forms.TabControl
-            Me.tpE001PIN = New System.Windows.Forms.TabPage
-            Me.tpE044DRN = New System.Windows.Forms.TabPage
-            Me.tpE045ECPNI = New System.Windows.Forms.TabPage
-            Me.tpE046CRN = New System.Windows.Forms.TabPage
-            Me.tpE037ECO = New System.Windows.Forms.TabPage
-            Me.tpE025BOMItmMstr = New System.Windows.Forms.TabPage
-            Me.tpBLManagment = New System.Windows.Forms.TabPage
-            Me.tpDwgLstTbLst = New System.Windows.Forms.TabPage
-            Me.tpOther = New System.Windows.Forms.TabPage
+            Me.TabControl1 = New System.Windows.Forms.TabControl()
+            Me.tpDwgLstTbLst = New System.Windows.Forms.TabPage()
+            Me.tpE001PIN = New System.Windows.Forms.TabPage()
+            Me.tpE044DRN = New System.Windows.Forms.TabPage()
+            Me.tpE045ECPNI = New System.Windows.Forms.TabPage()
+            Me.tpE046CRN = New System.Windows.Forms.TabPage()
+            Me.tpE037ECO = New System.Windows.Forms.TabPage()
+            Me.tpE025BOMItmMstr = New System.Windows.Forms.TabPage()
+            Me.tpBLManagment = New System.Windows.Forms.TabPage()
+            Me.tpOther = New System.Windows.Forms.TabPage()
             Me.TabControl1.SuspendLayout()
             Me.SuspendLayout()
             '
@@ -87,81 +87,81 @@ Namespace nsForms
             Me.TabControl1.Size = New System.Drawing.Size(896, 638)
             Me.TabControl1.TabIndex = 0
             '
+            'tpDwgLstTbLst
+            '
+            Me.tpDwgLstTbLst.Location = New System.Drawing.Point(10, 48)
+            Me.tpDwgLstTbLst.Name = "tpDwgLstTbLst"
+            Me.tpDwgLstTbLst.Size = New System.Drawing.Size(876, 580)
+            Me.tpDwgLstTbLst.TabIndex = 5
+            Me.tpDwgLstTbLst.Text = "Dwg Lst Tb Lst"
+            '
             'tpE001PIN
             '
-            Me.tpE001PIN.Location = New System.Drawing.Point(4, 22)
+            Me.tpE001PIN.Location = New System.Drawing.Point(10, 48)
             Me.tpE001PIN.Name = "tpE001PIN"
-            Me.tpE001PIN.Size = New System.Drawing.Size(888, 612)
+            Me.tpE001PIN.Size = New System.Drawing.Size(2310, 1463)
             Me.tpE001PIN.TabIndex = 8
             Me.tpE001PIN.Text = "E001 Prod Intro"
             '
             'tpE044DRN
             '
-            Me.tpE044DRN.Location = New System.Drawing.Point(4, 22)
+            Me.tpE044DRN.Location = New System.Drawing.Point(10, 48)
             Me.tpE044DRN.Name = "tpE044DRN"
-            Me.tpE044DRN.Size = New System.Drawing.Size(888, 612)
+            Me.tpE044DRN.Size = New System.Drawing.Size(2310, 1463)
             Me.tpE044DRN.TabIndex = 0
             Me.tpE044DRN.Text = "E044 DRN"
             '
             'tpE045ECPNI
             '
-            Me.tpE045ECPNI.Location = New System.Drawing.Point(4, 22)
+            Me.tpE045ECPNI.Location = New System.Drawing.Point(10, 48)
             Me.tpE045ECPNI.Name = "tpE045ECPNI"
-            Me.tpE045ECPNI.Size = New System.Drawing.Size(888, 612)
+            Me.tpE045ECPNI.Size = New System.Drawing.Size(2310, 1463)
             Me.tpE045ECPNI.TabIndex = 6
             Me.tpE045ECPNI.Text = "E045 ECPNI"
             '
             'tpE046CRN
             '
-            Me.tpE046CRN.Location = New System.Drawing.Point(4, 22)
+            Me.tpE046CRN.Location = New System.Drawing.Point(10, 48)
             Me.tpE046CRN.Name = "tpE046CRN"
-            Me.tpE046CRN.Size = New System.Drawing.Size(888, 612)
+            Me.tpE046CRN.Size = New System.Drawing.Size(2310, 1463)
             Me.tpE046CRN.TabIndex = 1
             Me.tpE046CRN.Text = "E046 CRN"
             '
             'tpE037ECO
             '
-            Me.tpE037ECO.Location = New System.Drawing.Point(4, 22)
+            Me.tpE037ECO.Location = New System.Drawing.Point(10, 48)
             Me.tpE037ECO.Name = "tpE037ECO"
-            Me.tpE037ECO.Size = New System.Drawing.Size(888, 612)
+            Me.tpE037ECO.Size = New System.Drawing.Size(2310, 1463)
             Me.tpE037ECO.TabIndex = 4
             Me.tpE037ECO.Text = "E037 ECO"
             '
             'tpE025BOMItmMstr
             '
-            Me.tpE025BOMItmMstr.Location = New System.Drawing.Point(4, 22)
+            Me.tpE025BOMItmMstr.Location = New System.Drawing.Point(10, 48)
             Me.tpE025BOMItmMstr.Name = "tpE025BOMItmMstr"
-            Me.tpE025BOMItmMstr.Size = New System.Drawing.Size(888, 612)
+            Me.tpE025BOMItmMstr.Size = New System.Drawing.Size(2310, 1463)
             Me.tpE025BOMItmMstr.TabIndex = 2
             Me.tpE025BOMItmMstr.Text = "E025 BOM Itm Mstr"
             '
             'tpBLManagment
             '
-            Me.tpBLManagment.Location = New System.Drawing.Point(4, 22)
+            Me.tpBLManagment.Location = New System.Drawing.Point(10, 48)
             Me.tpBLManagment.Name = "tpBLManagment"
-            Me.tpBLManagment.Size = New System.Drawing.Size(888, 612)
+            Me.tpBLManagment.Size = New System.Drawing.Size(2310, 1463)
             Me.tpBLManagment.TabIndex = 3
             Me.tpBLManagment.Text = "BL Managment"
             '
-            'tpDwgLstTbLst
-            '
-            Me.tpDwgLstTbLst.Location = New System.Drawing.Point(4, 22)
-            Me.tpDwgLstTbLst.Name = "tpDwgLstTbLst"
-            Me.tpDwgLstTbLst.Size = New System.Drawing.Size(888, 612)
-            Me.tpDwgLstTbLst.TabIndex = 5
-            Me.tpDwgLstTbLst.Text = "Dwg Lst Tb Lst"
-            '
             'tpOther
             '
-            Me.tpOther.Location = New System.Drawing.Point(4, 22)
+            Me.tpOther.Location = New System.Drawing.Point(10, 48)
             Me.tpOther.Name = "tpOther"
-            Me.tpOther.Size = New System.Drawing.Size(888, 612)
+            Me.tpOther.Size = New System.Drawing.Size(2310, 1463)
             Me.tpOther.TabIndex = 7
             Me.tpOther.Text = "Other"
             '
             'frmMain
             '
-            Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
+            Me.AutoScaleBaseSize = New System.Drawing.Size(13, 31)
             Me.ClientSize = New System.Drawing.Size(896, 638)
             Me.Controls.Add(Me.TabControl1)
             Me.Name = "frmMain"

@@ -75,28 +75,28 @@ Namespace nsUserCtls
         Friend WithEvents miRptAllDRN As System.Windows.Forms.MenuItem
 
         <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-            Me.dgE044DRN = New System.Windows.Forms.DataGrid
-            Me.cmnuE044DRN = New System.Windows.Forms.ContextMenu
-            Me.miNewE044DRN = New System.Windows.Forms.MenuItem
-            Me.miUpDtE044DRNTbl = New System.Windows.Forms.MenuItem
-            Me.miEngProcHelpE044 = New System.Windows.Forms.MenuItem
-            Me.miEP0105 = New System.Windows.Forms.MenuItem
-            Me.miEP0106 = New System.Windows.Forms.MenuItem
-            Me.miEP0201 = New System.Windows.Forms.MenuItem
-            Me.miEP0202 = New System.Windows.Forms.MenuItem
-            Me.miEP0203 = New System.Windows.Forms.MenuItem
-            Me.miEP0604 = New System.Windows.Forms.MenuItem
-            Me.miEP0608 = New System.Windows.Forms.MenuItem
-            Me.miEP0702 = New System.Windows.Forms.MenuItem
-            Me.miRptAllDRN = New System.Windows.Forms.MenuItem
-            Me.miClrDRN = New System.Windows.Forms.MenuItem
-            Me.Splitter1 = New System.Windows.Forms.Splitter
-            Me.cmnuE044DRNSubTbl = New System.Windows.Forms.ContextMenu
-            Me.miMkE044DRNTbl = New System.Windows.Forms.MenuItem
-            Me.miUpdateRelDocsDs = New System.Windows.Forms.MenuItem
-            Me.miTransToItmMstr = New System.Windows.Forms.MenuItem
-            Me.DataGrid1 = New System.Windows.Forms.DataGrid
-            Me.DataGrid6 = New System.Windows.Forms.DataGrid
+            Me.dgE044DRN = New System.Windows.Forms.DataGrid()
+            Me.cmnuE044DRN = New System.Windows.Forms.ContextMenu()
+            Me.miNewE044DRN = New System.Windows.Forms.MenuItem()
+            Me.miUpDtE044DRNTbl = New System.Windows.Forms.MenuItem()
+            Me.miEngProcHelpE044 = New System.Windows.Forms.MenuItem()
+            Me.miEP0105 = New System.Windows.Forms.MenuItem()
+            Me.miEP0106 = New System.Windows.Forms.MenuItem()
+            Me.miEP0201 = New System.Windows.Forms.MenuItem()
+            Me.miEP0202 = New System.Windows.Forms.MenuItem()
+            Me.miEP0203 = New System.Windows.Forms.MenuItem()
+            Me.miEP0604 = New System.Windows.Forms.MenuItem()
+            Me.miEP0608 = New System.Windows.Forms.MenuItem()
+            Me.miEP0702 = New System.Windows.Forms.MenuItem()
+            Me.miRptAllDRN = New System.Windows.Forms.MenuItem()
+            Me.miClrDRN = New System.Windows.Forms.MenuItem()
+            Me.Splitter1 = New System.Windows.Forms.Splitter()
+            Me.cmnuE044DRNSubTbl = New System.Windows.Forms.ContextMenu()
+            Me.miMkE044DRNTbl = New System.Windows.Forms.MenuItem()
+            Me.miUpdateRelDocsDs = New System.Windows.Forms.MenuItem()
+            Me.miTransToItmMstr = New System.Windows.Forms.MenuItem()
+            Me.DataGrid1 = New System.Windows.Forms.DataGrid()
+            Me.DataGrid6 = New System.Windows.Forms.DataGrid()
             CType(Me.dgE044DRN, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataGrid1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataGrid6, System.ComponentModel.ISupportInitialize).BeginInit()

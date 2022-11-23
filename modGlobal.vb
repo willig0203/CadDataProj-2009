@@ -11,7 +11,9 @@ Namespace nsMods
         'Dim file As New System.IO.StreamReader("C:\DataLinks" & "\DBTest.txt")
         'Dim words As String = file.ReadToEnd() : file.Close()
 
-        Public words As String = "Data Source=DFHLSCASQL01;Initial Catalog=Document Control;Integrated Security=True"
+
+        'Public words As String = "Data Source=DFHLSCASQL01;Initial Catalog=Document Control;Integrated Security=True"
+        Public words As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\willi\Desktop\CadDataProj 2009\database\Document Control.mdf;Integrated Security=True;Connect Timeout=30"
 
         ' user controls
         Public ucE001PIN As New ucE001PIN
@@ -34,7 +36,7 @@ Namespace nsMods
         Public pinID As String
 
         Public rOnly As Boolean = False
-        Public pathStrToHandBook As String = "C:\Gary\Standard Drawings\Drawings\-1. Engineering Procedures Handbook\"
+        Public pathStrToHandBook As String = "C:\Users\willi\Desktop\CadDataProj 2009\-1. Engineering Procedures Handbook\"
         Public FolderName As String : Public OpenFileName As String : Public OpenFileNames As String()
         Public cloneTable As System.data.DataTable
 
