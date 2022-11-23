@@ -1,0 +1,44 @@
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.exe.config
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbprojResolveAssemblyReference.cache
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.Form1.resources
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.Resources.resources
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbproj.GenerateResource.Cache
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.exe
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.pdb
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.xml
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\clsUtil.dll
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\TaskScheduler.dll
+C:\Gary\CadDataProj 2009\Sql01_Report\bin\Debug\clsUtil.pdb
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.exe
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.xml
+C:\Gary\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.pdb
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.exe.config
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.exe
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.xml
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.pdb
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.exe
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.pdb
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.xml
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\clsUtil.dll
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\TaskScheduler.dll
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\bin\Debug\clsUtil.pdb
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbprojResolveAssemblyReference.cache
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.Form1.resources
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.Resources.resources
+C:\Gary\_Not Used\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbproj.GenerateResource.Cache
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.exe.config
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.exe
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.pdb
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\Sql01_Report.xml
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\clsUtil.dll
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\TaskScheduler.dll
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\bin\Debug\clsUtil.pdb
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbproj.AssemblyReference.cache
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.Form1.resources
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.Resources.resources
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbproj.GenerateResource.cache
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbproj.CoreCompileInputs.cache
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.vbproj.CopyComplete
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.exe
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.xml
+C:\Users\willi\Desktop\CadDataProj 2009\Sql01_Report\obj\Debug\Sql01_Report.pdb

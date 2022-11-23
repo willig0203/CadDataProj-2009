@@ -1,0 +1,84 @@
+C:\Gary\CadDataProj 2009\bin\CadDataProjAsmbly.dll
+C:\Gary\CadDataProj 2009\bin\CadDataProjAsmbly.pdb
+C:\Gary\CadDataProj 2009\bin\CadDataProjAsmbly.xml
+C:\Gary\CadDataProj 2009\bin\acdbmgd.dll
+C:\Gary\CadDataProj 2009\bin\acmgd.dll
+C:\Gary\CadDataProj 2009\bin\acmgdinternal.dll
+C:\Gary\CadDataProj 2009\bin\ThumbNailShell.dll
+C:\Gary\CadDataProj 2009\bin\AdWindows.dll
+C:\Gary\CadDataProj 2009\bin\ThumbNailShell.pdb
+C:\Gary\CadDataProj 2009\bin\en-US\AdWindows.resources.dll
+C:\Gary\CadDataProj 2009\bin\en-US\acdbmgd.resources.dll
+C:\Gary\CadDataProj 2009\bin\Interop.ExpressViewerDll.dll
+C:\Gary\CadDataProj 2009\bin\AxInterop.ExpressViewerDll.dll
+C:\Gary\CadDataProj 2009\obj\Debug\ResolveAssemblyReference.cache
+C:\Gary\CadDataProj 2009\obj\Debug\Interop.ExpressViewerDll.dll
+C:\Gary\CadDataProj 2009\obj\Debug\AxInterop.ExpressViewerDll.dll
+C:\Gary\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbproj.ResolveComReference.cache
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsDataComp.cSqlDataComp.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsDataComp.DataComp.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmBlockMan.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmClassofChange.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmE024ItmMstrDetail.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmMain.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmReport.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucAttOptions.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucBLManagment.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucDwgLstTbLst.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE001PIN.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE025BomItmMstr.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE037ECO.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE044DRN.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE045ECPNI.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE046CRN.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucOther.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucRevisions.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucStamps.resources
+C:\Gary\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucTransmit.resources
+C:\Gary\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbproj.GenerateResource.Cache
+C:\Gary\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.dll
+C:\Gary\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.xml
+C:\Gary\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.pdb
+C:\Gary\CadDataProj 2009\bin\Interop.TRANSMITTALLib.dll
+C:\Gary\CadDataProj 2009\bin\clsUtil.dll
+C:\Gary\CadDataProj 2009\bin\clsUtil.pdb
+C:\Gary\CadDataProj 2009\bin\TaskScheduler.dll
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbprojResolveAssemblyReference.cache
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsDataComp.cSqlDataComp.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsDataComp.DataComp.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmBlockMan.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmClassofChange.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmE024ItmMstrDetail.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmMain.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsForms.frmReport.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucAttOptions.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucBLManagment.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucDwgLstTbLst.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE001PIN.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE025BomItmMstr.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE037ECO.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE044DRN.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE045ECPNI.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucE046CRN.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucOther.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucRevisions.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucStamps.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\rnsCadDataProj.nsUserCtls.ucTransmit.resources
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbproj.GenerateResource.Cache
+C:\Gary\_Not Used\CadDataProj 2009\bin\CadDataProjAsmbly.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\CadDataProjAsmbly.pdb
+C:\Gary\_Not Used\CadDataProj 2009\bin\CadDataProjAsmbly.xml
+C:\Gary\_Not Used\CadDataProj 2009\bin\AcCoreMgd.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\AcDbMgd.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\AcMgd.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\clsUtil.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\ThumbNailShell.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\TaskScheduler.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\AdWindows.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\AcTcMgd.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\AcCui.dll
+C:\Gary\_Not Used\CadDataProj 2009\bin\clsUtil.pdb
+C:\Gary\_Not Used\CadDataProj 2009\bin\ThumbNailShell.pdb
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.dll
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.xml
+C:\Gary\_Not Used\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.pdb

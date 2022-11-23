@@ -1,0 +1,25 @@
+C:\Gary\CadDataProj 2009\clsUtil\bin\Debug\clsUtil.dll
+C:\Gary\CadDataProj 2009\clsUtil\bin\Debug\clsUtil.pdb
+C:\Gary\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csproj.ResolveComReference.cache
+C:\Gary\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.dll
+C:\Gary\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.pdb
+C:\Gary\CadDataProj 2009\clsUtil\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Gary\CadDataProj 2009\clsUtil\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Gary\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csprojResolveAssemblyReference.cache
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\bin\Debug\clsUtil.dll
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\bin\Debug\clsUtil.pdb
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csproj.ResolveComReference.cache
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.dll
+C:\Gary\_Not Used\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.pdb
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\bin\Debug\clsUtil.dll
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\bin\Debug\clsUtil.pdb
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csproj.AssemblyReference.cache
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csproj.ResolveComReference.cache
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csproj.CoreCompileInputs.cache
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.csproj.CopyComplete
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.dll
+C:\Users\willi\Desktop\CadDataProj 2009\clsUtil\obj\Debug\clsUtil.pdb

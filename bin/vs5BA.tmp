@@ -1,0 +1,483 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CadDataProjAsmbly
+</name>
+</assembly>
+<members>
+<member name="T:rnsCadDataProj.DataSet1.CustomersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.DocumentReleasePhaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.DocumentReleasePriorityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E002CBDSubTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E002ConfigurationBaselineDocumentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E003AsBltSubTblDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E003AsBuiltConfigurationRecordDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E023PartNumberRequestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E026WhereUsedInputDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E028ComponentPartRequestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E029DeliverableDocumentationChecklistDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E039PrototypeReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E040BillofMaterialChangeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E041DocumentChangeNoticeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E042SpecificationChangeNoticeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E043EquivalentItemAuthorizationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.EmployeesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.OrderDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.OrdersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProductsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectClassificationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectDepartmentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectIsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.TimeBilledDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E044DocumentReleaseNoticeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E044ReleasedDocumentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E037EngineeringChangeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E024ItemMasterInputDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E045EngineeringChangePartNumberInputDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E025BillofMaterialInputSubTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E025BillofMaterialInputDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.TrackingBlockNamesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046CopyRequestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046SubTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046SubTblSelCmdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E045SubTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.RevisionsTextDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E001ProductIntroductionNoticeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.CustomersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.DocumentReleasePhaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.DocumentReleasePriorityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E002CBDSubTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E002ConfigurationBaselineDocumentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E003AsBltSubTblRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E003AsBuiltConfigurationRecordRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E023PartNumberRequestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E026WhereUsedInputRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E028ComponentPartRequestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E029DeliverableDocumentationChecklistRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E039PrototypeReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E040BillofMaterialChangeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E041DocumentChangeNoticeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E042SpecificationChangeNoticeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E043EquivalentItemAuthorizationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.EmployeesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.OrderDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.OrdersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProductsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectClassificationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectDepartmentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectIsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.TimeBilledRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E044DocumentReleaseNoticeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E044ReleasedDocumentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E037EngineeringChangeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E024ItemMasterInputRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E045EngineeringChangePartNumberInputRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E025BillofMaterialInputSubTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E025BillofMaterialInputRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.TrackingBlockNamesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046CopyRequestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046SubTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046SubTblSelCmdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E045SubTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.RevisionsTextRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E001ProductIntroductionNoticeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.CustomersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.DocumentReleasePhaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.DocumentReleasePriorityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E002CBDSubTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E002ConfigurationBaselineDocumentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E003AsBltSubTblRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E003AsBuiltConfigurationRecordRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E023PartNumberRequestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E026WhereUsedInputRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E028ComponentPartRequestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E029DeliverableDocumentationChecklistRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E039PrototypeReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E040BillofMaterialChangeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E041DocumentChangeNoticeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E042SpecificationChangeNoticeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E043EquivalentItemAuthorizationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.EmployeesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.OrderDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.OrdersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProductsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectClassificationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectDepartmentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectIsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.ProjectTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.TimeBilledRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E044DocumentReleaseNoticeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E044ReleasedDocumentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E037EngineeringChangeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E024ItemMasterInputRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E045EngineeringChangePartNumberInputRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E025BillofMaterialInputSubTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E025BillofMaterialInputRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.TrackingBlockNamesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046CopyRequestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046SubTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E046SubTblSelCmdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E045SubTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.RevisionsTextRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1.E001ProductIntroductionNoticeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:rnsCadDataProj.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

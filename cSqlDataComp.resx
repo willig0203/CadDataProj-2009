@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT CustomerID, CompanyName, ContactFirstName, ContactLastName, CompanyOrDepartment, BillingAddress, City, StateOrProvince, PostalCode, CountryRegion, ContactTitle, PhoneNumber, Extension, FaxNumber, EmailAddress, Notes FROM Customers</value>
+  </data>
+  <metadata name="SqlConn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 91</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO Customers(CustomerID, CompanyName, ContactFirstName, ContactLastName, CompanyOrDepartment, BillingAddress, City, StateOrProvince, PostalCode, CountryRegion, ContactTitle, PhoneNumber, Extension, FaxNumber, EmailAddress, Notes) VALUES (@CustomerID, @CompanyName, @ContactFirstName, @ContactLastName, @CompanyOrDepartment, @BillingAddress, @City, @StateOrProvince, @PostalCode, @CountryRegion, @ContactTitle, @PhoneNumber, @Extension, @FaxNumber, @EmailAddress, @Notes); SELECT CustomerID, CompanyName, ContactFirstName, ContactLastName, CompanyOrDepartment, BillingAddress, City, StateOrProvince, PostalCode, CountryRegion, ContactTitle, PhoneNumber, Extension, FaxNumber, EmailAddress, Notes FROM Customers</value>
+  </data>
+  <metadata name="SqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 212</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO E002CBDSubTable(CBDRecId, CBDNumber, IndentNumber, DocumentNumber, Description, Quantity, TraceabilityCode, Revision, EngineeringChangeNumber) VALUES (@CBDRecId, @CBDNumber, @IndentNumber, @DocumentNumber, @Description, @Quantity, @TraceabilityCode, @Revision, @EngineeringChangeNumber); SELECT CBDRecId, CBDNumber, IndentNumber, DocumentNumber, Description, Quantity, TraceabilityCode, Revision, EngineeringChangeNumber FROM E002CBDSubTable</value>
+  </data>
+  <metadata name="SqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO E002ConfigurationBaselineDocument(CBDNumber, CDBRevision, CDBDate, Engineer, EngineerDate, Customer, CustomerDate) VALUES (@CBDNumber, @CDBRevision, @CDBDate, @Engineer, @EngineerDate, @Customer, @CustomerDate); SELECT CBDNumber, CDBRevision, CDBDate, Engineer, EngineerDate, Customer, CustomerDate FROM E002ConfigurationBaselineDocument</value>
+  </data>
+  <metadata name="SqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand7.CommandText" xml:space="preserve">
+    <value>INSERT INTO E003AsBltSubTbl(ABCRecId, ABCRNumber, IndentNumber, DocumentNumber, Description, Quantity, SerialNumber, EngineeringChangeNumber, AsDesignedAsBuiltDifferences) VALUES (@ABCRecId, @ABCRNumber, @IndentNumber, @DocumentNumber, @Description, @Quantity, @SerialNumber, @EngineeringChangeNumber, @AsDesignedAsBuiltDifferences); SELECT ABCRecId, ABCRNumber, IndentNumber, DocumentNumber, Description, Quantity, SerialNumber, EngineeringChangeNumber, AsDesignedAsBuiltDifferences FROM E003AsBltSubTbl</value>
+  </data>
+  <metadata name="SqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand8.CommandText" xml:space="preserve">
+    <value>INSERT INTO E003AsBuiltConfigurationRecord(ABCRNumber, ABCRRevision, ABCRDate, Engineer, EngineerDate, Manufacturing, ManufacturingDate) VALUES (@ABCRNumber, @ABCRRevision, @ABCRDate, @Engineer, @EngineerDate, @Manufacturing, @ManufacturingDate); SELECT ABCRNumber, ABCRRevision, ABCRDate, Engineer, EngineerDate, Manufacturing, ManufacturingDate FROM E003AsBuiltConfigurationRecord</value>
+  </data>
+  <metadata name="SqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand9.CommandText" xml:space="preserve">
+    <value>SELECT PartNumberRequestNumber, Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, PartNumber, PartDescription, ManufacturesPartNumberIfApplicable FROM E023PartNumberRequest ORDER BY PartNumberRequestNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand9.CommandText" xml:space="preserve">
+    <value>INSERT INTO E023PartNumberRequest(PartNumberRequestNumber, Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, PartNumber, PartDescription, ManufacturesPartNumberIfApplicable) VALUES (@PartNumberRequestNumber, @Engineer, @EngineerDate, @EngineeringManager, @EngineeringManagerDate, @PartNumber, @PartDescription, @ManufacturesPartNumberIfApplicable); SELECT PartNumberRequestNumber, Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, PartNumber, PartDescription, ManufacturesPartNumberIfApplicable FROM E023PartNumberRequest</value>
+  </data>
+  <metadata name="SqlSelectCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand13.CommandText" xml:space="preserve">
+    <value>SELECT WhereUsedInputNumber, Originator, OriginatorDate, EngineeringChangeNumber, OldPart, OldPartDescription, QuantityPer, NextAssembly, NextAssemblyDescription, TopLevelPartNumber, [Feature-Option], ModelNumber, Product, Customer, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate] FROM E026WhereUsedInput ORDER BY WhereUsedInputNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand13.CommandText" xml:space="preserve">
+    <value>INSERT INTO E026WhereUsedInput(WhereUsedInputNumber, Originator, OriginatorDate, EngineeringChangeNumber, OldPart, OldPartDescription, QuantityPer, NextAssembly, NextAssemblyDescription, TopLevelPartNumber, [Feature-Option], ModelNumber, Product, Customer, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate]) VALUES (@WhereUsedInputNumber, @Originator, @OriginatorDate, @EngineeringChangeNumber, @OldPart, @OldPartDescription, @QuantityPer, @NextAssembly, @NextAssemblyDescription, @TopLevelPartNumber, @Param1, @ModelNumber, @Product, @Customer, @Param2, @Param3, @Param4, @Param5); SELECT WhereUsedInputNumber, Originator, OriginatorDate, EngineeringChangeNumber, OldPart, OldPartDescription, QuantityPer, NextAssembly, NextAssemblyDescription, TopLevelPartNumber, [Feature-Option], ModelNumber, Product, Customer, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate] FROM E026WhereUsedInput</value>
+  </data>
+  <metadata name="SqlSelectCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand14.CommandText" xml:space="preserve">
+    <value>SELECT ComponentPartRequestNumber, Originator, OriginatorDepartment, OriginatorDate, CPRNumber, Manager, ManagerDepartment, ManagerDate, WhereUsed, ReasonforRequest, Description, ManufacturerName1, ManufacturerPartNumber1, ManufacturerName2, ManufacturerPartNumber2, CostEstimate, ProjectNumber, Action, Remarks, [Authorization:Engineering], [Authorization:EngineeringDate], DocumentControl, DocumentControlDate FROM E028ComponentPartRequest ORDER BY ComponentPartRequestNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand14.CommandText" xml:space="preserve">
+    <value>INSERT INTO E028ComponentPartRequest(ComponentPartRequestNumber, Originator, OriginatorDepartment, OriginatorDate, CPRNumber, Manager, ManagerDepartment, ManagerDate, WhereUsed, ReasonforRequest, Description, ManufacturerName1, ManufacturerPartNumber1, ManufacturerName2, ManufacturerPartNumber2, CostEstimate, ProjectNumber, Action, Remarks, [Authorization:Engineering], [Authorization:EngineeringDate], DocumentControl, DocumentControlDate) VALUES (@ComponentPartRequestNumber, @Originator, @OriginatorDepartment, @OriginatorDate, @CPRNumber, @Manager, @ManagerDepartment, @ManagerDate, @WhereUsed, @ReasonforRequest, @Description, @ManufacturerName1, @ManufacturerPartNumber1, @ManufacturerName2, @ManufacturerPartNumber2, @CostEstimate, @ProjectNumber, @Action, @Remarks, @Param6, @Param7, @DocumentControl, @DocumentControlDate); SELECT ComponentPartRequestNumber, Originator, OriginatorDepartment, OriginatorDate, CPRNumber, Manager, ManagerDepartment, ManagerDate, WhereUsed, ReasonforRequest, Description, ManufacturerName1, ManufacturerPartNumber1, ManufacturerName2, ManufacturerPartNumber2, CostEstimate, ProjectNumber, Action, Remarks, [Authorization:Engineering], [Authorization:EngineeringDate], DocumentControl, DocumentControlDate FROM E028ComponentPartRequest</value>
+  </data>
+  <metadata name="SqlSelectCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand15.CommandText" xml:space="preserve">
+    <value>SELECT DeliverableDocumentationChecklistNumber, PartName, PartNumber, SerialNumber, Customer, PurchaseOrderorContract, DeliverableDocumentationChecklistDate, [ItemList?], Remarks, PreparedBy, PreparedByDate, ApprovedBy, ApprovedByDate FROM E029DeliverableDocumentationChecklist ORDER BY DeliverableDocumentationChecklistNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand15.CommandText" xml:space="preserve">
+    <value>INSERT INTO E029DeliverableDocumentationChecklist(DeliverableDocumentationChecklistNumber, PartName, PartNumber, SerialNumber, Customer, PurchaseOrderorContract, DeliverableDocumentationChecklistDate, [ItemList?], Remarks, PreparedBy, PreparedByDate, ApprovedBy, ApprovedByDate) VALUES (@DeliverableDocumentationChecklistNumber, @PartName, @PartNumber, @SerialNumber, @Customer, @PurchaseOrderorContract, @DeliverableDocumentationChecklistDate, @Param8, @Remarks, @PreparedBy, @PreparedByDate, @ApprovedBy, @ApprovedByDate); SELECT DeliverableDocumentationChecklistNumber, PartName, PartNumber, SerialNumber, Customer, PurchaseOrderorContract, DeliverableDocumentationChecklistDate, [ItemList?], Remarks, PreparedBy, PreparedByDate, ApprovedBy, ApprovedByDate FROM E029DeliverableDocumentationChecklist</value>
+  </data>
+  <metadata name="SqlSelectCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand17.CommandText" xml:space="preserve">
+    <value>SELECT PrototypeReportNumber, Engineer, EngineerDepartment, EngineerDate, Manager, ManagerDepartment, ManagerDate, ProductType, DescriptionofPrototype, Recommendation, PartNumber, PartName, DrawingNumber, ConditionsofTest, Results, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manfacturing], [Authorizations:ManfacturingDate], [Authorizations:Quality], [Authorizations:QualityDate], [Authorizations:Purchasing], [Authorizations:PurchasingDate] FROM E039PrototypeReport ORDER BY PrototypeReportNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand17.CommandText" xml:space="preserve">
+    <value>INSERT INTO E039PrototypeReport(PrototypeReportNumber, Engineer, EngineerDepartment, EngineerDate, Manager, ManagerDepartment, ManagerDate, ProductType, DescriptionofPrototype, Recommendation, PartNumber, PartName, DrawingNumber, ConditionsofTest, Results, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manfacturing], [Authorizations:ManfacturingDate], [Authorizations:Quality], [Authorizations:QualityDate], [Authorizations:Purchasing], [Authorizations:PurchasingDate]) VALUES (@PrototypeReportNumber, @Engineer, @EngineerDepartment, @EngineerDate, @Manager, @ManagerDepartment, @ManagerDate, @ProductType, @DescriptionofPrototype, @Recommendation, @PartNumber, @PartName, @DrawingNumber, @ConditionsofTest, @Results, @Param17, @Param18, @Param19, @Param20, @Param21, @Param22, @Param23, @Param24); SELECT PrototypeReportNumber, Engineer, EngineerDepartment, EngineerDate, Manager, ManagerDepartment, ManagerDate, ProductType, DescriptionofPrototype, Recommendation, PartNumber, PartName, DrawingNumber, ConditionsofTest, Results, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manfacturing], [Authorizations:ManfacturingDate], [Authorizations:Quality], [Authorizations:QualityDate], [Authorizations:Purchasing], [Authorizations:PurchasingDate] FROM E039PrototypeReport</value>
+  </data>
+  <metadata name="SqlSelectCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand18.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand18.CommandText" xml:space="preserve">
+    <value>SELECT BOMChangeNumber, Engineer, EngineerDepartment, EngineerDate, Manager, ManagerDepartment, ManagerDate, DescriptionofChange, Disposition, EffectivityDate, PartNumber, PartName, DrawingNumber, Justification, RejectReason, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate], [Authorizations:Quality], [Authorizations:QualityDate], [Authorizations:Purchasing], [Authorizations:PurchasingDate] FROM E040BillofMaterialChange ORDER BY BOMChangeNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand18.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand18.CommandText" xml:space="preserve">
+    <value>INSERT INTO E040BillofMaterialChange(BOMChangeNumber, Engineer, EngineerDepartment, EngineerDate, Manager, ManagerDepartment, ManagerDate, DescriptionofChange, Disposition, EffectivityDate, PartNumber, PartName, DrawingNumber, Justification, RejectReason, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate], [Authorizations:Quality], [Authorizations:QualityDate], [Authorizations:Purchasing], [Authorizations:PurchasingDate]) VALUES (@BOMChangeNumber, @Engineer, @EngineerDepartment, @EngineerDate, @Manager, @ManagerDepartment, @ManagerDate, @DescriptionofChange, @Disposition, @EffectivityDate, @PartNumber, @PartName, @DrawingNumber, @Justification, @RejectReason, @Param25, @Param26, @Param27, @Param28, @Param29, @Param30, @Param31, @Param32); SELECT BOMChangeNumber, Engineer, EngineerDepartment, EngineerDate, Manager, ManagerDepartment, ManagerDate, DescriptionofChange, Disposition, EffectivityDate, PartNumber, PartName, DrawingNumber, Justification, RejectReason, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate], [Authorizations:Quality], [Authorizations:QualityDate], [Authorizations:Purchasing], [Authorizations:PurchasingDate] FROM E040BillofMaterialChange</value>
+  </data>
+  <metadata name="SqlSelectCommand19.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand19.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand19.CommandText" xml:space="preserve">
+    <value>SELECT DocumentChangeNoticeNumber, Originator, OriginatorDepartment, OriginatorDate, CCBChairPerson, CCBChairPersonDepartment, CCBChairPersonDate, DocumentNumber, Description, Revision, AssociatedEngineeringChangeNumber, WASCondition, NowCondition, IncorporatedBy, IncorporatedDate FROM E041DocumentChangeNotice ORDER BY DocumentChangeNoticeNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand19.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand19.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand19.CommandText" xml:space="preserve">
+    <value>INSERT INTO E041DocumentChangeNotice(DocumentChangeNoticeNumber, Originator, OriginatorDepartment, OriginatorDate, CCBChairPerson, CCBChairPersonDepartment, CCBChairPersonDate, DocumentNumber, Description, Revision, AssociatedEngineeringChangeNumber, WASCondition, NowCondition, IncorporatedBy, IncorporatedDate) VALUES (@DocumentChangeNoticeNumber, @Originator, @OriginatorDepartment, @OriginatorDate, @CCBChairPerson, @CCBChairPersonDepartment, @CCBChairPersonDate, @DocumentNumber, @Description, @Revision, @AssociatedEngineeringChangeNumber, @WASCondition, @NowCondition, @IncorporatedBy, @IncorporatedDate); SELECT DocumentChangeNoticeNumber, Originator, OriginatorDepartment, OriginatorDate, CCBChairPerson, CCBChairPersonDepartment, CCBChairPersonDate, DocumentNumber, Description, Revision, AssociatedEngineeringChangeNumber, WASCondition, NowCondition, IncorporatedBy, IncorporatedDate FROM E041DocumentChangeNotice</value>
+  </data>
+  <metadata name="SqlSelectCommand20.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand20.CommandText" xml:space="preserve">
+    <value>SELECT SpecificationChangeNoticeNumber, Originator, OriginatorDepartment, OriginatorDate, CCBChairPerson, CCBChairPersonDepartment, CCBChairPersonDate, DocumentNumber, Description, Revision, AssociatedEngineeringChangeNumber, WASCondition, NowCondition, IncorporatedBy, IncorporatedDate FROM E042SpecificationChangeNotice ORDER BY SpecificationChangeNoticeNumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand20.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand20.CommandText" xml:space="preserve">
+    <value>INSERT INTO E042SpecificationChangeNotice(SpecificationChangeNoticeNumber, Originator, OriginatorDepartment, OriginatorDate, CCBChairPerson, CCBChairPersonDepartment, CCBChairPersonDate, DocumentNumber, Description, Revision, AssociatedEngineeringChangeNumber, WASCondition, NowCondition, IncorporatedBy, IncorporatedDate) VALUES (@SpecificationChangeNoticeNumber, @Originator, @OriginatorDepartment, @OriginatorDate, @CCBChairPerson, @CCBChairPersonDepartment, @CCBChairPersonDate, @DocumentNumber, @Description, @Revision, @AssociatedEngineeringChangeNumber, @WASCondition, @NowCondition, @IncorporatedBy, @IncorporatedDate); SELECT SpecificationChangeNoticeNumber, Originator, OriginatorDepartment, OriginatorDate, CCBChairPerson, CCBChairPersonDepartment, CCBChairPersonDate, DocumentNumber, Description, Revision, AssociatedEngineeringChangeNumber, WASCondition, NowCondition, IncorporatedBy, IncorporatedDate FROM E042SpecificationChangeNotice</value>
+  </data>
+  <metadata name="SqlSelectCommand21.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand21.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand21.CommandText" xml:space="preserve">
+    <value>SELECT EIANumber, Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, ProgramNumber, DrawingNumber, DrawingDescription, DrawingRevision, ChangePartNumber, ChangePartNumberDescription, ToPartNumber, ToPartNumberDescription, EffectiveforSerialNumberOnly, orFromSerialNumber, ThroughSerialNumber, PurposeoftheSubstitution, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate], [Authorizations:Quality], [Authorizations:QualityDate] FROM E043EquivalentItemAuthorizations ORDER BY EIANumber DESC</value>
+  </data>
+  <metadata name="SqlInsertCommand21.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand21.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand21.CommandText" xml:space="preserve">
+    <value>INSERT INTO E043EquivalentItemAuthorizations(EIANumber, Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, ProgramNumber, DrawingNumber, DrawingDescription, DrawingRevision, ChangePartNumber, ChangePartNumberDescription, ToPartNumber, ToPartNumberDescription, EffectiveforSerialNumberOnly, orFromSerialNumber, ThroughSerialNumber, PurposeoftheSubstitution, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate], [Authorizations:Quality], [Authorizations:QualityDate]) VALUES (@EIANumber, @Originator, @OriginatorDepartment, @OriginatorDate, @Manager, @ManagerDepartment, @ManagerDate, @ProgramNumber, @DrawingNumber, @DrawingDescription, @DrawingRevision, @ChangePartNumber, @ChangePartNumberDescription, @ToPartNumber, @ToPartNumberDescription, @EffectiveforSerialNumberOnly, @orFromSerialNumber, @ThroughSerialNumber, @PurposeoftheSubstitution, @Param33, @Param34, @Param35, @Param36, @Param37, @Param38); SELECT EIANumber, Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, ProgramNumber, DrawingNumber, DrawingDescription, DrawingRevision, ChangePartNumber, ChangePartNumberDescription, ToPartNumber, ToPartNumberDescription, EffectiveforSerialNumberOnly, orFromSerialNumber, ThroughSerialNumber, PurposeoftheSubstitution, [Authorizations:Engineering], [Authorizations:EngineeringDate], [Authorizations:Manufacturing], [Authorizations:ManufacturingDate], [Authorizations:Quality], [Authorizations:QualityDate] FROM E043EquivalentItemAuthorizations</value>
+  </data>
+  <metadata name="SqlSelectCommand28.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand28.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand28.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand28.CommandText" xml:space="preserve">
+    <value>SELECT EmployeeID, DepartmentName, SocialSecurityNumber, EmployeeNumber, NationalEmplNumber, FirstName, MiddleName, LastName, Title, EmailName, Extension, Address, City, StateOrProvince, Region, PostalCode, [Country/Region], HomePhone, WorkPhone, DepartmentID, Birthdate, DateHired, Salary, BillingRate, Deductions, SupervisorID, SpouseName, EmrgcyContactName, EmrgcyContactPhone, Photograph, Notes, OfficeLocation FROM Employees</value>
+  </data>
+  <metadata name="SqlInsertCommand28.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand28.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand28.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand28.CommandText" xml:space="preserve">
+    <value>INSERT INTO Employees(EmployeeID, DepartmentName, SocialSecurityNumber, EmployeeNumber, NationalEmplNumber, FirstName, MiddleName, LastName, Title, EmailName, Extension, Address, City, StateOrProvince, Region, PostalCode, [Country/Region], HomePhone, WorkPhone, DepartmentID, Birthdate, DateHired, Salary, BillingRate, Deductions, SupervisorID, SpouseName, EmrgcyContactName, EmrgcyContactPhone, Photograph, Notes, OfficeLocation) VALUES (@EmployeeID, @DepartmentName, @SocialSecurityNumber, @EmployeeNumber, @NationalEmplNumber, @FirstName, @MiddleName, @LastName, @Title, @EmailName, @Extension, @Address, @City, @StateOrProvince, @Region, @PostalCode, @Param39, @HomePhone, @WorkPhone, @DepartmentID, @Birthdate, @DateHired, @Salary, @BillingRate, @Deductions, @SupervisorID, @SpouseName, @EmrgcyContactName, @EmrgcyContactPhone, @Photograph, @Notes, @OfficeLocation); SELECT EmployeeID, DepartmentName, SocialSecurityNumber, EmployeeNumber, NationalEmplNumber, FirstName, MiddleName, LastName, Title, EmailName, Extension, Address, City, StateOrProvince, Region, PostalCode, [Country/Region], HomePhone, WorkPhone, DepartmentID, Birthdate, DateHired, Salary, BillingRate, Deductions, SupervisorID, SpouseName, EmrgcyContactName, EmrgcyContactPhone, Photograph, Notes, OfficeLocation FROM Employees</value>
+  </data>
+  <metadata name="SqlSelectCommand29.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand29.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand29.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand29.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand29.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand29.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand29.CommandText" xml:space="preserve">
+    <value>INSERT INTO OrderDetails(OrderDetailID, OrderID, ProductID, DateSold, Quantity, UnitPrice, Discount, SalePrice, SalesTax, LineTotal) VALUES (@OrderDetailID, @OrderID, @ProductID, @DateSold, @Quantity, @UnitPrice, @Discount, @SalePrice, @SalesTax, @LineTotal); SELECT OrderDetailID, OrderID, ProductID, DateSold, Quantity, UnitPrice, Discount, SalePrice, SalesTax, LineTotal FROM OrderDetails</value>
+  </data>
+  <metadata name="SqlSelectCommand30.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand30.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand30.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand30.CommandText" xml:space="preserve">
+    <value>SELECT OrderID, CustomerID, EmployeeID, OrderDate, PurchaseOrderNumber, RequiredByDate, PromisedByDate, ShipName, ShipAddress, ShipCity, ShipState, ShipStateOrProvince, ShipPostalCode, ShipCountry, ShipPhoneNumber, ShipDate, ShippingMethodID, FreightCharge, SalesTaxRate FROM Orders</value>
+  </data>
+  <metadata name="SqlInsertCommand30.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand30.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand30.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand30.CommandText" xml:space="preserve">
+    <value>INSERT INTO Orders(OrderID, CustomerID, EmployeeID, OrderDate, PurchaseOrderNumber, RequiredByDate, PromisedByDate, ShipName, ShipAddress, ShipCity, ShipState, ShipStateOrProvince, ShipPostalCode, ShipCountry, ShipPhoneNumber, ShipDate, ShippingMethodID, FreightCharge, SalesTaxRate) VALUES (@OrderID, @CustomerID, @EmployeeID, @OrderDate, @PurchaseOrderNumber, @RequiredByDate, @PromisedByDate, @ShipName, @ShipAddress, @ShipCity, @ShipState, @ShipStateOrProvince, @ShipPostalCode, @ShipCountry, @ShipPhoneNumber, @ShipDate, @ShippingMethodID, @FreightCharge, @SalesTaxRate); SELECT OrderID, CustomerID, EmployeeID, OrderDate, PurchaseOrderNumber, RequiredByDate, PromisedByDate, ShipName, ShipAddress, ShipCity, ShipState, ShipStateOrProvince, ShipPostalCode, ShipCountry, ShipPhoneNumber, ShipDate, ShippingMethodID, FreightCharge, SalesTaxRate FROM Orders</value>
+  </data>
+  <metadata name="SqlSelectCommand31.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand31.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand31.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand31.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand31.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand31.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand31.CommandText" xml:space="preserve">
+    <value>INSERT INTO Products(ProductID, ProductName, ProductDescription, CategoryID, SupplierID, SerialNumber, UnitsInStock, UnitsOnOrder, UnitPrice, ReorderLevel, Discontinued, LeadTime) VALUES (@ProductID, @ProductName, @ProductDescription, @CategoryID, @SupplierID, @SerialNumber, @UnitsInStock, @UnitsOnOrder, @UnitPrice, @ReorderLevel, @Discontinued, @LeadTime); SELECT ProductID, ProductName, ProductDescription, CategoryID, SupplierID, SerialNumber, UnitsInStock, UnitsOnOrder, UnitPrice, ReorderLevel, Discontinued, LeadTime FROM Products</value>
+  </data>
+  <metadata name="SqlSelectCommand32.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand32.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand32.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand32.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand32.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand32.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand33.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand33.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand33.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand33.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand33.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand33.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand34.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand34.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand34.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand34.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand34.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand34.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 212</value>
+  </metadata>
+  <metadata name="SqlSelectCommand35.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand35.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand35.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand35.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand35.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand35.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand36.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand36.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand36.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand36.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand36.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand36.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 212</value>
+  </metadata>
+  <data name="SqlInsertCommand36.CommandText" xml:space="preserve">
+    <value>INSERT INTO TimeBilled(TimeBilledID, CustomerID, ProjectID, EmployeeID, BillingDate, HourlyRate, BillableHours, Notes) VALUES (@TimeBilledID, @CustomerID, @ProjectID, @EmployeeID, @BillingDate, @HourlyRate, @BillableHours, @Notes); SELECT TimeBilledID, CustomerID, ProjectID, EmployeeID, BillingDate, HourlyRate, BillableHours, Notes FROM TimeBilled</value>
+  </data>
+  <metadata name="DaCustomers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 128</value>
+  </metadata>
+  <metadata name="DaDocRelPhase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 202</value>
+  </metadata>
+  <metadata name="DaDocRelPriority.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 350</value>
+  </metadata>
+  <metadata name="DaE001ProdIntro.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 387</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DaE002CBDSubTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 461</value>
+  </metadata>
+  <metadata name="DaE002ConBaseDoc.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 498</value>
+  </metadata>
+  <metadata name="DaE003AsBltSubTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 609</value>
+  </metadata>
+  <metadata name="DaE003AsBltConRec.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 646</value>
+  </metadata>
+  <metadata name="DaE023PrtNumReq.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 905</value>
+  </metadata>
+  <metadata name="DaE024ItmMstr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1016</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM E024ItemMasterInput WHERE (ItemMasterInputNumber = @Original_ItemMasterInputNumber) AND (AccountingLaborHours = @Original_AccountingLaborHours OR @Original_AccountingLaborHours IS NULL AND AccountingLaborHours IS NULL) AND (AccountingMaterialCost = @Original_AccountingMaterialCost OR @Original_AccountingMaterialCost IS NULL AND AccountingMaterialCost IS NULL) AND (AccountingVendorCost = @Original_AccountingVendorCost OR @Original_AccountingVendorCost IS NULL AND AccountingVendorCost IS NULL) AND (EngineeringDashNumber = @Original_EngineeringDashNumber OR @Original_EngineeringDashNumber IS NULL AND EngineeringDashNumber IS NULL) AND (EngineeringDescription = @Original_EngineeringDescription OR @Original_EngineeringDescription IS NULL AND EngineeringDescription IS NULL) AND (EngineeringEngineeringChangeNumberAndDate = @Original_EngineeringEngineeringChangeNumberAndDate OR @Original_EngineeringEngineeringChangeNumberAndDate IS NULL AND EngineeringEngineeringChangeNumberAndDate IS NULL) AND (EngineeringPartNumber = @Original_EngineeringPartNumber OR @Original_EngineeringPartNumber IS NULL AND EngineeringPartNumber IS NULL) AND (EngineeringProductCode = @Original_EngineeringProductCode OR @Original_EngineeringProductCode IS NULL AND EngineeringProductCode IS NULL) AND (EngineeringRevisionCode = @Original_EngineeringRevisionCode OR @Original_EngineeringRevisionCode IS NULL AND EngineeringRevisionCode IS NULL) AND (EngineeringUnitofMeasure = @Original_EngineeringUnitofMeasure OR @Original_EngineeringUnitofMeasure IS NULL AND EngineeringUnitofMeasure IS NULL) AND (InventoryControlABCCode = @Original_InventoryControlABCCode OR @Original_InventoryControlABCCode IS NULL AND InventoryControlABCCode IS NULL) AND (InventoryControlOrderQuantity = @Original_InventoryControlOrderQuantity OR @Original_InventoryControlOrderQuantity IS NULL AND InventoryControlOrderQuantity IS NULL) AND (InventoryControlPlanningCode = @Original_InventoryControlPlanningCode OR @Original_InventoryControlPlanningCode IS NULL AND InventoryControlPlanningCode IS NULL) AND (InventoryControlSourceCode = @Original_InventoryControlSourceCode OR @Original_InventoryControlSourceCode IS NULL AND InventoryControlSourceCode IS NULL) AND (InventoryControlSpareCode = @Original_InventoryControlSpareCode OR @Original_InventoryControlSpareCode IS NULL AND InventoryControlSpareCode IS NULL) AND (ProductionControlForcastedUsage = @Original_ProductionControlForcastedUsage OR @Original_ProductionControlForcastedUsage IS NULL AND ProductionControlForcastedUsage IS NULL) AND (ProductionControlManufacturingLeadTime = @Original_ProductionControlManufacturingLeadTime OR @Original_ProductionControlManufacturingLeadTime IS NULL AND ProductionControlManufacturingLeadTime IS NULL) AND (ProductionControlShrinkageFactor = @Original_ProductionControlShrinkageFactor OR @Original_ProductionControlShrinkageFactor IS NULL AND ProductionControlShrinkageFactor IS NULL) AND (ProductionControlYieldPercent = @Original_ProductionControlYieldPercent OR @Original_ProductionControlYieldPercent IS NULL AND ProductionControlYieldPercent IS NULL) AND (PurchasingBuyerCode = @Original_PurchasingBuyerCode OR @Original_PurchasingBuyerCode IS NULL AND PurchasingBuyerCode IS NULL) AND (PurchasingCommodityCode = @Original_PurchasingCommodityCode OR @Original_PurchasingCommodityCode IS NULL AND PurchasingCommodityCode IS NULL) AND (PurchasingPurchasingLeadTime = @Original_PurchasingPurchasingLeadTime OR @Original_PurchasingPurchasingLeadTime IS NULL AND PurchasingPurchasingLeadTime IS NULL) AND (SignatureDateEngineering = @Original_SignatureDateEngineering OR @Original_SignatureDateEngineering IS NULL AND SignatureDateEngineering IS NULL) AND (SignatureDateManufacturing = @Original_SignatureDateManufacturing OR @Original_SignatureDateManufacturing IS NULL AND SignatureDateManufacturing IS NULL) AND (SignatureDatePurchasing = @Original_SignatureDatePurchasing OR @Original_SignatureDatePurchasing IS NULL AND SignatureDatePurchasing IS NULL) AND (SignatureDateQuality = @Original_SignatureDateQuality OR @Original_SignatureDateQuality IS NULL AND SignatureDateQuality IS NULL) AND (SignatureEngineering = @Original_SignatureEngineering OR @Original_SignatureEngineering IS NULL AND SignatureEngineering IS NULL) AND (SignatureManufacturing = @Original_SignatureManufacturing OR @Original_SignatureManufacturing IS NULL AND SignatureManufacturing IS NULL) AND (SignaturePurchasing = @Original_SignaturePurchasing OR @Original_SignaturePurchasing IS NULL AND SignaturePurchasing IS NULL) AND (SignatureQuality = @Original_SignatureQuality OR @Original_SignatureQuality IS NULL AND SignatureQuality IS NULL)</value>
+  </data>
+  <metadata name="SqlInsertCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO E024ItemMasterInput(EngineeringPartNumber, EngineeringDashNumber, EngineeringRevisionCode, EngineeringDescription, EngineeringUnitofMeasure, EngineeringProductCode, EngineeringEngineeringChangeNumberAndDate, InventoryControlSourceCode, InventoryControlSpareCode, InventoryControlPlanningCode, InventoryControlOrderQuantity, InventoryControlABCCode, ProductionControlManufacturingLeadTime, ProductionControlYieldPercent, ProductionControlShrinkageFactor, ProductionControlForcastedUsage, PurchasingCommodityCode, PurchasingPurchasingLeadTime, PurchasingBuyerCode, AccountingLaborHours, AccountingMaterialCost, AccountingVendorCost, SignatureEngineering, SignatureDateEngineering, SignatureManufacturing, SignatureDateManufacturing, SignaturePurchasing, SignatureDatePurchasing, SignatureQuality, SignatureDateQuality) VALUES (@EngineeringPartNumber, @EngineeringDashNumber, @EngineeringRevisionCode, @EngineeringDescription, @EngineeringUnitofMeasure, @EngineeringProductCode, @EngineeringEngineeringChangeNumberAndDate, @InventoryControlSourceCode, @InventoryControlSpareCode, @InventoryControlPlanningCode, @InventoryControlOrderQuantity, @InventoryControlABCCode, @ProductionControlManufacturingLeadTime, @ProductionControlYieldPercent, @ProductionControlShrinkageFactor, @ProductionControlForcastedUsage, @PurchasingCommodityCode, @PurchasingPurchasingLeadTime, @PurchasingBuyerCode, @AccountingLaborHours, @AccountingMaterialCost, @AccountingVendorCost, @SignatureEngineering, @SignatureDateEngineering, @SignatureManufacturing, @SignatureDateManufacturing, @SignaturePurchasing, @SignatureDatePurchasing, @SignatureQuality, @SignatureDateQuality); SELECT ItemMasterInputNumber, EngineeringPartNumber, EngineeringDashNumber, EngineeringRevisionCode, EngineeringDescription, EngineeringUnitofMeasure, EngineeringProductCode, EngineeringEngineeringChangeNumberAndDate, InventoryControlSourceCode, InventoryControlSpareCode, InventoryControlPlanningCode, InventoryControlOrderQuantity, InventoryControlABCCode, ProductionControlManufacturingLeadTime, ProductionControlYieldPercent, ProductionControlShrinkageFactor, ProductionControlForcastedUsage, PurchasingCommodityCode, PurchasingPurchasingLeadTime, PurchasingBuyerCode, AccountingLaborHours, AccountingMaterialCost, AccountingVendorCost, SignatureEngineering, SignatureDateEngineering, SignatureManufacturing, SignatureDateManufacturing, SignaturePurchasing, SignatureDatePurchasing, SignatureQuality, SignatureDateQuality FROM E024ItemMasterInput WHERE (ItemMasterInputNumber = @@IDENTITY) ORDER BY ItemMasterInputNumber DESC</value>
+  </data>
+  <metadata name="SqlSelectCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand10.CommandText" xml:space="preserve">
+    <value>SELECT ItemMasterInputNumber, EngineeringPartNumber, EngineeringDashNumber, EngineeringRevisionCode, EngineeringDescription, EngineeringUnitofMeasure, EngineeringProductCode, EngineeringEngineeringChangeNumberAndDate, InventoryControlSourceCode, InventoryControlSpareCode, InventoryControlPlanningCode, InventoryControlOrderQuantity, InventoryControlABCCode, ProductionControlManufacturingLeadTime, ProductionControlYieldPercent, ProductionControlShrinkageFactor, ProductionControlForcastedUsage, PurchasingCommodityCode, PurchasingPurchasingLeadTime, PurchasingBuyerCode, AccountingLaborHours, AccountingMaterialCost, AccountingVendorCost, SignatureEngineering, SignatureDateEngineering, SignatureManufacturing, SignatureDateManufacturing, SignaturePurchasing, SignatureDatePurchasing, SignatureQuality, SignatureDateQuality FROM E024ItemMasterInput ORDER BY ItemMasterInputNumber DESC</value>
+  </data>
+  <metadata name="SqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE E024ItemMasterInput SET EngineeringPartNumber = @EngineeringPartNumber, EngineeringDashNumber = @EngineeringDashNumber, EngineeringRevisionCode = @EngineeringRevisionCode, EngineeringDescription = @EngineeringDescription, EngineeringUnitofMeasure = @EngineeringUnitofMeasure, EngineeringProductCode = @EngineeringProductCode, EngineeringEngineeringChangeNumberAndDate = @EngineeringEngineeringChangeNumberAndDate, InventoryControlSourceCode = @InventoryControlSourceCode, InventoryControlSpareCode = @InventoryControlSpareCode, InventoryControlPlanningCode = @InventoryControlPlanningCode, InventoryControlOrderQuantity = @InventoryControlOrderQuantity, InventoryControlABCCode = @InventoryControlABCCode, ProductionControlManufacturingLeadTime = @ProductionControlManufacturingLeadTime, ProductionControlYieldPercent = @ProductionControlYieldPercent, ProductionControlShrinkageFactor = @ProductionControlShrinkageFactor, ProductionControlForcastedUsage = @ProductionControlForcastedUsage, PurchasingCommodityCode = @PurchasingCommodityCode, PurchasingPurchasingLeadTime = @PurchasingPurchasingLeadTime, PurchasingBuyerCode = @PurchasingBuyerCode, AccountingLaborHours = @AccountingLaborHours, AccountingMaterialCost = @AccountingMaterialCost, AccountingVendorCost = @AccountingVendorCost, SignatureEngineering = @SignatureEngineering, SignatureDateEngineering = @SignatureDateEngineering, SignatureManufacturing = @SignatureManufacturing, SignatureDateManufacturing = @SignatureDateManufacturing, SignaturePurchasing = @SignaturePurchasing, SignatureDatePurchasing = @SignatureDatePurchasing, SignatureQuality = @SignatureQuality, SignatureDateQuality = @SignatureDateQuality WHERE (ItemMasterInputNumber = @Original_ItemMasterInputNumber) AND (AccountingLaborHours = @Original_AccountingLaborHours OR @Original_AccountingLaborHours IS NULL AND AccountingLaborHours IS NULL) AND (AccountingMaterialCost = @Original_AccountingMaterialCost OR @Original_AccountingMaterialCost IS NULL AND AccountingMaterialCost IS NULL) AND (AccountingVendorCost = @Original_AccountingVendorCost OR @Original_AccountingVendorCost IS NULL AND AccountingVendorCost IS NULL) AND (EngineeringDashNumber = @Original_EngineeringDashNumber OR @Original_EngineeringDashNumber IS NULL AND EngineeringDashNumber IS NULL) AND (EngineeringDescription = @Original_EngineeringDescription OR @Original_EngineeringDescription IS NULL AND EngineeringDescription IS NULL) AND (EngineeringEngineeringChangeNumberAndDate = @Original_EngineeringEngineeringChangeNumberAndDate OR @Original_EngineeringEngineeringChangeNumberAndDate IS NULL AND EngineeringEngineeringChangeNumberAndDate IS NULL) AND (EngineeringPartNumber = @Original_EngineeringPartNumber OR @Original_EngineeringPartNumber IS NULL AND EngineeringPartNumber IS NULL) AND (EngineeringProductCode = @Original_EngineeringProductCode OR @Original_EngineeringProductCode IS NULL AND EngineeringProductCode IS NULL) AND (EngineeringRevisionCode = @Original_EngineeringRevisionCode OR @Original_EngineeringRevisionCode IS NULL AND EngineeringRevisionCode IS NULL) AND (EngineeringUnitofMeasure = @Original_EngineeringUnitofMeasure OR @Original_EngineeringUnitofMeasure IS NULL AND EngineeringUnitofMeasure IS NULL) AND (InventoryControlABCCode = @Original_InventoryControlABCCode OR @Original_InventoryControlABCCode IS NULL AND InventoryControlABCCode IS NULL) AND (InventoryControlOrderQuantity = @Original_InventoryControlOrderQuantity OR @Original_InventoryControlOrderQuantity IS NULL AND InventoryControlOrderQuantity IS NULL) AND (InventoryControlPlanningCode = @Original_InventoryControlPlanningCode OR @Original_InventoryControlPlanningCode IS NULL AND InventoryControlPlanningCode IS NULL) AND (InventoryControlSourceCode = @Original_InventoryControlSourceCode OR @Original_InventoryControlSourceCode IS NULL AND InventoryControlSourceCode IS NULL) AND (InventoryControlSpareCode = @Original_InventoryControlSpareCode OR @Original_InventoryControlSpareCode IS NULL AND InventoryControlSpareCode IS NULL) AND (ProductionControlForcastedUsage = @Original_ProductionControlForcastedUsage OR @Original_ProductionControlForcastedUsage IS NULL AND ProductionControlForcastedUsage IS NULL) AND (ProductionControlManufacturingLeadTime = @Original_ProductionControlManufacturingLeadTime OR @Original_ProductionControlManufacturingLeadTime IS NULL AND ProductionControlManufacturingLeadTime IS NULL) AND (ProductionControlShrinkageFactor = @Original_ProductionControlShrinkageFactor OR @Original_ProductionControlShrinkageFactor IS NULL AND ProductionControlShrinkageFactor IS NULL) AND (ProductionControlYieldPercent = @Original_ProductionControlYieldPercent OR @Original_ProductionControlYieldPercent IS NULL AND ProductionControlYieldPercent IS NULL) AND (PurchasingBuyerCode = @Original_PurchasingBuyerCode OR @Original_PurchasingBuyerCode IS NULL AND PurchasingBuyerCode IS NULL) AND (PurchasingCommodityCode = @Original_PurchasingCommodityCode OR @Original_PurchasingCommodityCode IS NULL AND PurchasingCommodityCode IS NULL) AND (PurchasingPurchasingLeadTime = @Original_PurchasingPurchasingLeadTime OR @Original_PurchasingPurchasingLeadTime IS NULL AND PurchasingPurchasingLeadTime IS NULL) AND (SignatureDateEngineering = @Original_SignatureDateEngineering OR @Original_SignatureDateEngineering IS NULL AND SignatureDateEngineering IS NULL) AND (SignatureDateManufacturing = @Original_SignatureDateManufacturing OR @Original_SignatureDateManufacturing IS NULL AND SignatureDateManufacturing IS NULL) AND (SignatureDatePurchasing = @Original_SignatureDatePurchasing OR @Original_SignatureDatePurchasing IS NULL AND SignatureDatePurchasing IS NULL) AND (SignatureDateQuality = @Original_SignatureDateQuality OR @Original_SignatureDateQuality IS NULL AND SignatureDateQuality IS NULL) AND (SignatureEngineering = @Original_SignatureEngineering OR @Original_SignatureEngineering IS NULL AND SignatureEngineering IS NULL) AND (SignatureManufacturing = @Original_SignatureManufacturing OR @Original_SignatureManufacturing IS NULL AND SignatureManufacturing IS NULL) AND (SignaturePurchasing = @Original_SignaturePurchasing OR @Original_SignaturePurchasing IS NULL AND SignaturePurchasing IS NULL) AND (SignatureQuality = @Original_SignatureQuality OR @Original_SignatureQuality IS NULL AND SignatureQuality IS NULL); SELECT ItemMasterInputNumber, EngineeringPartNumber, EngineeringDashNumber, EngineeringRevisionCode, EngineeringDescription, EngineeringUnitofMeasure, EngineeringProductCode, EngineeringEngineeringChangeNumberAndDate, InventoryControlSourceCode, InventoryControlSpareCode, InventoryControlPlanningCode, InventoryControlOrderQuantity, InventoryControlABCCode, ProductionControlManufacturingLeadTime, ProductionControlYieldPercent, ProductionControlShrinkageFactor, ProductionControlForcastedUsage, PurchasingCommodityCode, PurchasingPurchasingLeadTime, PurchasingBuyerCode, AccountingLaborHours, AccountingMaterialCost, AccountingVendorCost, SignatureEngineering, SignatureDateEngineering, SignatureManufacturing, SignatureDateManufacturing, SignaturePurchasing, SignatureDatePurchasing, SignatureQuality, SignatureDateQuality FROM E024ItemMasterInput WHERE (ItemMasterInputNumber = @ItemMasterInputNumber) ORDER BY ItemMasterInputNumber DESC</value>
+  </data>
+  <metadata name="DaE025BillOfMat.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 720</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM E025BillofMaterialInput WHERE (BillofMaterialInputNumber = @Original_BillofMaterialInputNumber) AND (AuthorizationsEngineering = @Original_AuthorizationsEngineering OR @Original_AuthorizationsEngineering IS NULL AND AuthorizationsEngineering IS NULL) AND (AuthorizationsEngineeringDate = @Original_AuthorizationsEngineeringDate OR @Original_AuthorizationsEngineeringDate IS NULL AND AuthorizationsEngineeringDate IS NULL) AND (AuthorizationsManufacturing = @Original_AuthorizationsManufacturing OR @Original_AuthorizationsManufacturing IS NULL AND AuthorizationsManufacturing IS NULL) AND (AuthorizationsManufacturingDate = @Original_AuthorizationsManufacturingDate OR @Original_AuthorizationsManufacturingDate IS NULL AND AuthorizationsManufacturingDate IS NULL) AND (DataEntryCode = @Original_DataEntryCode OR @Original_DataEntryCode IS NULL AND DataEntryCode IS NULL) AND (NextHigherAssembly = @Original_NextHigherAssembly OR @Original_NextHigherAssembly IS NULL AND NextHigherAssembly IS NULL) AND (Originator = @Original_Originator OR @Original_Originator IS NULL AND Originator IS NULL) AND (OriginatorDate = @Original_OriginatorDate OR @Original_OriginatorDate IS NULL AND OriginatorDate IS NULL) AND (ParentAassemblyName = @Original_ParentAassemblyName OR @Original_ParentAassemblyName IS NULL AND ParentAassemblyName IS NULL) AND (ParentPartNumber = @Original_ParentPartNumber OR @Original_ParentPartNumber IS NULL AND ParentPartNumber IS NULL) AND (PartNumber = @Original_PartNumber OR @Original_PartNumber IS NULL AND PartNumber IS NULL)</value>
+  </data>
+  <metadata name="SqlInsertCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand11.CommandText" xml:space="preserve">
+    <value>INSERT INTO E025BillofMaterialInput(Originator, OriginatorDate, ParentPartNumber, ParentAassemblyName, DataEntryCode, NextHigherAssembly, PartNumber, AuthorizationsEngineering, AuthorizationsEngineeringDate, AuthorizationsManufacturing, AuthorizationsManufacturingDate) VALUES (@Originator, @OriginatorDate, @ParentPartNumber, @ParentAassemblyName, @DataEntryCode, @NextHigherAssembly, @PartNumber, @AuthorizationsEngineering, @AuthorizationsEngineeringDate, @AuthorizationsManufacturing, @AuthorizationsManufacturingDate); SELECT BillofMaterialInputNumber, Originator, OriginatorDate, ParentPartNumber, ParentAassemblyName, DataEntryCode, NextHigherAssembly, PartNumber, AuthorizationsEngineering, AuthorizationsEngineeringDate, AuthorizationsManufacturing, AuthorizationsManufacturingDate FROM E025BillofMaterialInput WHERE (BillofMaterialInputNumber = @@IDENTITY) ORDER BY BillofMaterialInputNumber DESC</value>
+  </data>
+  <metadata name="SqlSelectCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand11.CommandText" xml:space="preserve">
+    <value>SELECT BillofMaterialInputNumber, Originator, OriginatorDate, ParentPartNumber, ParentAassemblyName, DataEntryCode, NextHigherAssembly, PartNumber, AuthorizationsEngineering, AuthorizationsEngineeringDate, AuthorizationsManufacturing, AuthorizationsManufacturingDate FROM E025BillofMaterialInput ORDER BY BillofMaterialInputNumber DESC</value>
+  </data>
+  <metadata name="SqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE E025BillofMaterialInput SET Originator = @Originator, OriginatorDate = @OriginatorDate, ParentPartNumber = @ParentPartNumber, ParentAassemblyName = @ParentAassemblyName, DataEntryCode = @DataEntryCode, NextHigherAssembly = @NextHigherAssembly, PartNumber = @PartNumber, AuthorizationsEngineering = @AuthorizationsEngineering, AuthorizationsEngineeringDate = @AuthorizationsEngineeringDate, AuthorizationsManufacturing = @AuthorizationsManufacturing, AuthorizationsManufacturingDate = @AuthorizationsManufacturingDate WHERE (BillofMaterialInputNumber = @Original_BillofMaterialInputNumber) AND (AuthorizationsEngineering = @Original_AuthorizationsEngineering OR @Original_AuthorizationsEngineering IS NULL AND AuthorizationsEngineering IS NULL) AND (AuthorizationsEngineeringDate = @Original_AuthorizationsEngineeringDate OR @Original_AuthorizationsEngineeringDate IS NULL AND AuthorizationsEngineeringDate IS NULL) AND (AuthorizationsManufacturing = @Original_AuthorizationsManufacturing OR @Original_AuthorizationsManufacturing IS NULL AND AuthorizationsManufacturing IS NULL) AND (AuthorizationsManufacturingDate = @Original_AuthorizationsManufacturingDate OR @Original_AuthorizationsManufacturingDate IS NULL AND AuthorizationsManufacturingDate IS NULL) AND (DataEntryCode = @Original_DataEntryCode OR @Original_DataEntryCode IS NULL AND DataEntryCode IS NULL) AND (NextHigherAssembly = @Original_NextHigherAssembly OR @Original_NextHigherAssembly IS NULL AND NextHigherAssembly IS NULL) AND (Originator = @Original_Originator OR @Original_Originator IS NULL AND Originator IS NULL) AND (OriginatorDate = @Original_OriginatorDate OR @Original_OriginatorDate IS NULL AND OriginatorDate IS NULL) AND (ParentAassemblyName = @Original_ParentAassemblyName OR @Original_ParentAassemblyName IS NULL AND ParentAassemblyName IS NULL) AND (ParentPartNumber = @Original_ParentPartNumber OR @Original_ParentPartNumber IS NULL AND ParentPartNumber IS NULL) AND (PartNumber = @Original_PartNumber OR @Original_PartNumber IS NULL AND PartNumber IS NULL); SELECT BillofMaterialInputNumber, Originator, OriginatorDate, ParentPartNumber, ParentAassemblyName, DataEntryCode, NextHigherAssembly, PartNumber, AuthorizationsEngineering, AuthorizationsEngineeringDate, AuthorizationsManufacturing, AuthorizationsManufacturingDate FROM E025BillofMaterialInput WHERE (BillofMaterialInputNumber = @BillofMaterialInputNumber) ORDER BY BillofMaterialInputNumber DESC</value>
+  </data>
+  <metadata name="DaE025BillOfMatSubTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 979</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM E025BillofMaterialInputSubTable WHERE (ItemNumber = @Original_ItemNumber) AND (BOMItemNumber = @Original_BOMItemNumber OR @Original_BOMItemNumber IS NULL AND BOMItemNumber IS NULL) AND (BillofMaterialInputNumber = @Original_BillofMaterialInputNumber OR @Original_BillofMaterialInputNumber IS NULL AND BillofMaterialInputNumber IS NULL) AND (ComponentPartNumber = @Original_ComponentPartNumber OR @Original_ComponentPartNumber IS NULL AND ComponentPartNumber IS NULL) AND (DeletetoOperatorSequenceNumber = @Original_DeletetoOperatorSequenceNumber OR @Original_DeletetoOperatorSequenceNumber IS NULL AND DeletetoOperatorSequenceNumber IS NULL) AND (EffectivityCloseDate = @Original_EffectivityCloseDate OR @Original_EffectivityCloseDate IS NULL AND EffectivityCloseDate IS NULL) AND (EffectivityCloseSerialNumber = @Original_EffectivityCloseSerialNumber OR @Original_EffectivityCloseSerialNumber IS NULL AND EffectivityCloseSerialNumber IS NULL) AND (EffectivityStartDate = @Original_EffectivityStartDate OR @Original_EffectivityStartDate IS NULL AND EffectivityStartDate IS NULL) AND (EffectivityStartSerialNumber = @Original_EffectivityStartSerialNumber OR @Original_EffectivityStartSerialNumber IS NULL AND EffectivityStartSerialNumber IS NULL) AND (IssuingStoresAccount = @Original_IssuingStoresAccount OR @Original_IssuingStoresAccount IS NULL AND IssuingStoresAccount IS NULL) AND (KitLeadTimeOffset = @Original_KitLeadTimeOffset OR @Original_KitLeadTimeOffset IS NULL AND KitLeadTimeOffset IS NULL) AND (QuantityPer = @Original_QuantityPer OR @Original_QuantityPer IS NULL AND QuantityPer IS NULL)</value>
+  </data>
+  <metadata name="SqlInsertCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand12.CommandText" xml:space="preserve">
+    <value>INSERT INTO E025BillofMaterialInputSubTable(BillofMaterialInputNumber, BOMItemNumber, ComponentPartNumber, QuantityPer, EffectivityStartDate, EffectivityStartSerialNumber, EffectivityCloseDate, EffectivityCloseSerialNumber, DeletetoOperatorSequenceNumber, KitLeadTimeOffset, IssuingStoresAccount) VALUES (@BillofMaterialInputNumber, @BOMItemNumber, @ComponentPartNumber, @QuantityPer, @EffectivityStartDate, @EffectivityStartSerialNumber, @EffectivityCloseDate, @EffectivityCloseSerialNumber, @DeletetoOperatorSequenceNumber, @KitLeadTimeOffset, @IssuingStoresAccount); SELECT BillofMaterialInputNumber, ItemNumber, BOMItemNumber, ComponentPartNumber, QuantityPer, EffectivityStartDate, EffectivityStartSerialNumber, EffectivityCloseDate, EffectivityCloseSerialNumber, DeletetoOperatorSequenceNumber, KitLeadTimeOffset, IssuingStoresAccount FROM E025BillofMaterialInputSubTable WHERE (ItemNumber = @@IDENTITY)</value>
+  </data>
+  <metadata name="SqlSelectCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand12.CommandText" xml:space="preserve">
+    <value>SELECT BillofMaterialInputNumber, ItemNumber, BOMItemNumber, ComponentPartNumber, QuantityPer, EffectivityStartDate, EffectivityStartSerialNumber, EffectivityCloseDate, EffectivityCloseSerialNumber, DeletetoOperatorSequenceNumber, KitLeadTimeOffset, IssuingStoresAccount FROM E025BillofMaterialInputSubTable</value>
+  </data>
+  <metadata name="SqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE E025BillofMaterialInputSubTable SET BillofMaterialInputNumber = @BillofMaterialInputNumber, BOMItemNumber = @BOMItemNumber, ComponentPartNumber = @ComponentPartNumber, QuantityPer = @QuantityPer, EffectivityStartDate = @EffectivityStartDate, EffectivityStartSerialNumber = @EffectivityStartSerialNumber, EffectivityCloseDate = @EffectivityCloseDate, EffectivityCloseSerialNumber = @EffectivityCloseSerialNumber, DeletetoOperatorSequenceNumber = @DeletetoOperatorSequenceNumber, KitLeadTimeOffset = @KitLeadTimeOffset, IssuingStoresAccount = @IssuingStoresAccount WHERE (ItemNumber = @Original_ItemNumber) AND (BOMItemNumber = @Original_BOMItemNumber OR @Original_BOMItemNumber IS NULL AND BOMItemNumber IS NULL) AND (BillofMaterialInputNumber = @Original_BillofMaterialInputNumber OR @Original_BillofMaterialInputNumber IS NULL AND BillofMaterialInputNumber IS NULL) AND (ComponentPartNumber = @Original_ComponentPartNumber OR @Original_ComponentPartNumber IS NULL AND ComponentPartNumber IS NULL) AND (DeletetoOperatorSequenceNumber = @Original_DeletetoOperatorSequenceNumber OR @Original_DeletetoOperatorSequenceNumber IS NULL AND DeletetoOperatorSequenceNumber IS NULL) AND (EffectivityCloseDate = @Original_EffectivityCloseDate OR @Original_EffectivityCloseDate IS NULL AND EffectivityCloseDate IS NULL) AND (EffectivityCloseSerialNumber = @Original_EffectivityCloseSerialNumber OR @Original_EffectivityCloseSerialNumber IS NULL AND EffectivityCloseSerialNumber IS NULL) AND (EffectivityStartDate = @Original_EffectivityStartDate OR @Original_EffectivityStartDate IS NULL AND EffectivityStartDate IS NULL) AND (EffectivityStartSerialNumber = @Original_EffectivityStartSerialNumber OR @Original_EffectivityStartSerialNumber IS NULL AND EffectivityStartSerialNumber IS NULL) AND (IssuingStoresAccount = @Original_IssuingStoresAccount OR @Original_IssuingStoresAccount IS NULL AND IssuingStoresAccount IS NULL) AND (KitLeadTimeOffset = @Original_KitLeadTimeOffset OR @Original_KitLeadTimeOffset IS NULL AND KitLeadTimeOffset IS NULL) AND (QuantityPer = @Original_QuantityPer OR @Original_QuantityPer IS NULL AND QuantityPer IS NULL); SELECT BillofMaterialInputNumber, ItemNumber, BOMItemNumber, ComponentPartNumber, QuantityPer, EffectivityStartDate, EffectivityStartSerialNumber, EffectivityCloseDate, EffectivityCloseSerialNumber, DeletetoOperatorSequenceNumber, KitLeadTimeOffset, IssuingStoresAccount FROM E025BillofMaterialInputSubTable WHERE (ItemNumber = @ItemNumber)</value>
+  </data>
+  <metadata name="DaE026WhereUsed.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1201</value>
+  </metadata>
+  <metadata name="DaE028CompPrtReq.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1275</value>
+  </metadata>
+  <metadata name="DaE029DelivDocChkLst.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1312</value>
+  </metadata>
+  <metadata name="DaE037EngChng.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 794</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM E037EngineeringChange WHERE (EngineeringChangeNumber = @Original_EngineeringChangeNumber) AND (AffectedDocuments = @Original_AffectedDocuments OR @Original_AffectedDocuments IS NULL AND AffectedDocuments IS NULL) AND ([Authorizations-Engineering] = @Original_Authorizations_Engineering OR @Original_Authorizations_Engineering IS NULL AND [Authorizations-Engineering] IS NULL) AND ([Authorizations-EngineeringDate] = @Original_Authorizations_EngineeringDate OR @Original_Authorizations_EngineeringDate IS NULL AND [Authorizations-EngineeringDate] IS NULL) AND ([Authorizations-Manufacturing] = @Original_Authorizations_Manufacturing OR @Original_Authorizations_Manufacturing IS NULL AND [Authorizations-Manufacturing] IS NULL) AND ([Authorizations-ManufacturingDate] = @Original_Authorizations_ManufacturingDate OR @Original_Authorizations_ManufacturingDate IS NULL AND [Authorizations-ManufacturingDate] IS NULL) AND ([Authorizations-Purchasing] = @Original_Authorizations_Purchasing OR @Original_Authorizations_Purchasing IS NULL AND [Authorizations-Purchasing] IS NULL) AND ([Authorizations-PurchasingDate] = @Original_Authorizations_PurchasingDate OR @Original_Authorizations_PurchasingDate IS NULL AND [Authorizations-PurchasingDate] IS NULL) AND ([Authorizations-Quality] = @Original_Authorizations_Quality OR @Original_Authorizations_Quality IS NULL AND [Authorizations-Quality] IS NULL) AND ([Authorizations-QualityDate] = @Original_Authorizations_QualityDate OR @Original_Authorizations_QualityDate IS NULL AND [Authorizations-QualityDate] IS NULL) AND (ClassofChange = @Original_ClassofChange OR @Original_ClassofChange IS NULL AND ClassofChange IS NULL) AND (DescriptionofChange = @Original_DescriptionofChange OR @Original_DescriptionofChange IS NULL AND DescriptionofChange IS NULL) AND (Manager = @Original_Manager OR @Original_Manager IS NULL AND Manager IS NULL) AND (ManagerDate = @Original_ManagerDate OR @Original_ManagerDate IS NULL AND ManagerDate IS NULL) AND (ManagerDepartment = @Original_ManagerDepartment OR @Original_ManagerDepartment IS NULL AND ManagerDepartment IS NULL) AND (Originator = @Original_Originator OR @Original_Originator IS NULL AND Originator IS NULL) AND (OriginatorDate = @Original_OriginatorDate OR @Original_OriginatorDate IS NULL AND OriginatorDate IS NULL) AND (OriginatorDepartment = @Original_OriginatorDepartment OR @Original_OriginatorDepartment IS NULL AND OriginatorDepartment IS NULL) AND (Priority = @Original_Priority OR @Original_Priority IS NULL AND Priority IS NULL) AND (RfcCostImprovement = @Original_RfcCostImprovement OR @Original_RfcCostImprovement IS NULL AND RfcCostImprovement IS NULL) AND (RfcCustomerDirected = @Original_RfcCustomerDirected OR @Original_RfcCustomerDirected IS NULL AND RfcCustomerDirected IS NULL) AND (RfcDesignError = @Original_RfcDesignError OR @Original_RfcDesignError IS NULL AND RfcDesignError IS NULL) AND (RfcDraftingError = @Original_RfcDraftingError OR @Original_RfcDraftingError IS NULL AND RfcDraftingError IS NULL) AND (RfcFacilitateInspection = @Original_RfcFacilitateInspection OR @Original_RfcFacilitateInspection IS NULL AND RfcFacilitateInspection IS NULL) AND (RfcFacilitateProduction = @Original_RfcFacilitateProduction OR @Original_RfcFacilitateProduction IS NULL AND RfcFacilitateProduction IS NULL) AND (RfcNewRelease = @Original_RfcNewRelease OR @Original_RfcNewRelease IS NULL AND RfcNewRelease IS NULL) AND (RfcRedrawError = @Original_RfcRedrawError OR @Original_RfcRedrawError IS NULL AND RfcRedrawError IS NULL) AND (RfcSafteyInprovement = @Original_RfcSafteyInprovement OR @Original_RfcSafteyInprovement IS NULL AND RfcSafteyInprovement IS NULL) AND (RfcScheduleImprovement = @Original_RfcScheduleImprovement OR @Original_RfcScheduleImprovement IS NULL AND RfcScheduleImprovement IS NULL) AND (RfcVendorRequested = @Original_RfcVendorRequested OR @Original_RfcVendorRequested IS NULL AND RfcVendorRequested IS NULL)</value>
+  </data>
+  <metadata name="SqlInsertCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand16.CommandText" xml:space="preserve">
+    <value>INSERT INTO E037EngineeringChange(Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, Priority, ClassofChange, AffectedDocuments, DescriptionofChange, [Authorizations-Engineering], [Authorizations-EngineeringDate], [Authorizations-Manufacturing], [Authorizations-ManufacturingDate], [Authorizations-Quality], [Authorizations-QualityDate], [Authorizations-Purchasing], [Authorizations-PurchasingDate], RfcNewRelease, RfcDesignError, RfcDraftingError, RfcRedrawError, RfcFacilitateProduction, RfcFacilitateInspection, RfcScheduleImprovement, RfcCostImprovement, RfcCustomerDirected, RfcVendorRequested, RfcSafteyInprovement, RfcOtherExplain) VALUES (@Originator, @OriginatorDepartment, @OriginatorDate, @Manager, @ManagerDepartment, @ManagerDate, @Priority, @ClassofChange, @AffectedDocuments, @DescriptionofChange, @Param1, @Param2, @Param3, @Param4, @Param5, @Param6, @Param7, @Param8, @RfcNewRelease, @RfcDesignError, @RfcDraftingError, @RfcRedrawError, @RfcFacilitateProduction, @RfcFacilitateInspection, @RfcScheduleImprovement, @RfcCostImprovement, @RfcCustomerDirected, @RfcVendorRequested, @RfcSafteyInprovement, @RfcOtherExplain); SELECT EngineeringChangeNumber, Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, Priority, ClassofChange, AffectedDocuments, DescriptionofChange, [Authorizations-Engineering], [Authorizations-EngineeringDate], [Authorizations-Manufacturing], [Authorizations-ManufacturingDate], [Authorizations-Quality], [Authorizations-QualityDate], [Authorizations-Purchasing], [Authorizations-PurchasingDate], RfcNewRelease, RfcDesignError, RfcDraftingError, RfcRedrawError, RfcFacilitateProduction, RfcFacilitateInspection, RfcScheduleImprovement, RfcCostImprovement, RfcCustomerDirected, RfcVendorRequested, RfcSafteyInprovement, RfcOtherExplain FROM E037EngineeringChange WHERE (EngineeringChangeNumber = @@IDENTITY) ORDER BY EngineeringChangeNumber DESC</value>
+  </data>
+  <metadata name="SqlSelectCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand16.CommandText" xml:space="preserve">
+    <value>SELECT EngineeringChangeNumber, Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, Priority, ClassofChange, AffectedDocuments, DescriptionofChange, [Authorizations-Engineering], [Authorizations-EngineeringDate], [Authorizations-Manufacturing], [Authorizations-ManufacturingDate], [Authorizations-Quality], [Authorizations-QualityDate], [Authorizations-Purchasing], [Authorizations-PurchasingDate], RfcNewRelease, RfcDesignError, RfcDraftingError, RfcRedrawError, RfcFacilitateProduction, RfcFacilitateInspection, RfcScheduleImprovement, RfcCostImprovement, RfcCustomerDirected, RfcVendorRequested, RfcSafteyInprovement, RfcOtherExplain FROM E037EngineeringChange ORDER BY EngineeringChangeNumber DESC</value>
+  </data>
+  <metadata name="SqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE E037EngineeringChange SET Originator = @Originator, OriginatorDepartment = @OriginatorDepartment, OriginatorDate = @OriginatorDate, Manager = @Manager, ManagerDepartment = @ManagerDepartment, ManagerDate = @ManagerDate, Priority = @Priority, ClassofChange = @ClassofChange, AffectedDocuments = @AffectedDocuments, DescriptionofChange = @DescriptionofChange, [Authorizations-Engineering] = @Param9, [Authorizations-EngineeringDate] = @Param10, [Authorizations-Manufacturing] = @Param11, [Authorizations-ManufacturingDate] = @Param12, [Authorizations-Quality] = @Param13, [Authorizations-QualityDate] = @Param14, [Authorizations-Purchasing] = @Param15, [Authorizations-PurchasingDate] = @Param16, RfcNewRelease = @RfcNewRelease, RfcDesignError = @RfcDesignError, RfcDraftingError = @RfcDraftingError, RfcRedrawError = @RfcRedrawError, RfcFacilitateProduction = @RfcFacilitateProduction, RfcFacilitateInspection = @RfcFacilitateInspection, RfcScheduleImprovement = @RfcScheduleImprovement, RfcCostImprovement = @RfcCostImprovement, RfcCustomerDirected = @RfcCustomerDirected, RfcVendorRequested = @RfcVendorRequested, RfcSafteyInprovement = @RfcSafteyInprovement, RfcOtherExplain = @RfcOtherExplain WHERE (EngineeringChangeNumber = @Original_EngineeringChangeNumber) AND (AffectedDocuments = @Original_AffectedDocuments OR @Original_AffectedDocuments IS NULL AND AffectedDocuments IS NULL) AND ([Authorizations-Engineering] = @Original_Authorizations_Engineering OR @Original_Authorizations_Engineering IS NULL AND [Authorizations-Engineering] IS NULL) AND ([Authorizations-EngineeringDate] = @Original_Authorizations_EngineeringDate OR @Original_Authorizations_EngineeringDate IS NULL AND [Authorizations-EngineeringDate] IS NULL) AND ([Authorizations-Manufacturing] = @Original_Authorizations_Manufacturing OR @Original_Authorizations_Manufacturing IS NULL AND [Authorizations-Manufacturing] IS NULL) AND ([Authorizations-ManufacturingDate] = @Original_Authorizations_ManufacturingDate OR @Original_Authorizations_ManufacturingDate IS NULL AND [Authorizations-ManufacturingDate] IS NULL) AND ([Authorizations-Purchasing] = @Original_Authorizations_Purchasing OR @Original_Authorizations_Purchasing IS NULL AND [Authorizations-Purchasing] IS NULL) AND ([Authorizations-PurchasingDate] = @Original_Authorizations_PurchasingDate OR @Original_Authorizations_PurchasingDate IS NULL AND [Authorizations-PurchasingDate] IS NULL) AND ([Authorizations-Quality] = @Original_Authorizations_Quality OR @Original_Authorizations_Quality IS NULL AND [Authorizations-Quality] IS NULL) AND ([Authorizations-QualityDate] = @Original_Authorizations_QualityDate OR @Original_Authorizations_QualityDate IS NULL AND [Authorizations-QualityDate] IS NULL) AND (ClassofChange = @Original_ClassofChange OR @Original_ClassofChange IS NULL AND ClassofChange IS NULL) AND (DescriptionofChange = @Original_DescriptionofChange OR @Original_DescriptionofChange IS NULL AND DescriptionofChange IS NULL) AND (Manager = @Original_Manager OR @Original_Manager IS NULL AND Manager IS NULL) AND (ManagerDate = @Original_ManagerDate OR @Original_ManagerDate IS NULL AND ManagerDate IS NULL) AND (ManagerDepartment = @Original_ManagerDepartment OR @Original_ManagerDepartment IS NULL AND ManagerDepartment IS NULL) AND (Originator = @Original_Originator OR @Original_Originator IS NULL AND Originator IS NULL) AND (OriginatorDate = @Original_OriginatorDate OR @Original_OriginatorDate IS NULL AND OriginatorDate IS NULL) AND (OriginatorDepartment = @Original_OriginatorDepartment OR @Original_OriginatorDepartment IS NULL AND OriginatorDepartment IS NULL) AND (Priority = @Original_Priority OR @Original_Priority IS NULL AND Priority IS NULL) AND (RfcCostImprovement = @Original_RfcCostImprovement OR @Original_RfcCostImprovement IS NULL AND RfcCostImprovement IS NULL) AND (RfcCustomerDirected = @Original_RfcCustomerDirected OR @Original_RfcCustomerDirected IS NULL AND RfcCustomerDirected IS NULL) AND (RfcDesignError = @Original_RfcDesignError OR @Original_RfcDesignError IS NULL AND RfcDesignError IS NULL) AND (RfcDraftingError = @Original_RfcDraftingError OR @Original_RfcDraftingError IS NULL AND RfcDraftingError IS NULL) AND (RfcFacilitateInspection = @Original_RfcFacilitateInspection OR @Original_RfcFacilitateInspection IS NULL AND RfcFacilitateInspection IS NULL) AND (RfcFacilitateProduction = @Original_RfcFacilitateProduction OR @Original_RfcFacilitateProduction IS NULL AND RfcFacilitateProduction IS NULL) AND (RfcNewRelease = @Original_RfcNewRelease OR @Original_RfcNewRelease IS NULL AND RfcNewRelease IS NULL) AND (RfcRedrawError = @Original_RfcRedrawError OR @Original_RfcRedrawError IS NULL AND RfcRedrawError IS NULL) AND (RfcSafteyInprovement = @Original_RfcSafteyInprovement OR @Original_RfcSafteyInprovement IS NULL AND RfcSafteyInprovement IS NULL) AND (RfcScheduleImprovement = @Original_RfcScheduleImprovement OR @Original_RfcScheduleImprovement IS NULL AND RfcScheduleImprovement IS NULL) AND (RfcVendorRequested = @Original_RfcVendorRequested OR @Original_RfcVendorRequested IS NULL AND RfcVendorRequested IS NULL); SELECT EngineeringChangeNumber, Originator, OriginatorDepartment, OriginatorDate, Manager, ManagerDepartment, ManagerDate, Priority, ClassofChange, AffectedDocuments, DescriptionofChange, [Authorizations-Engineering], [Authorizations-EngineeringDate], [Authorizations-Manufacturing], [Authorizations-ManufacturingDate], [Authorizations-Quality], [Authorizations-QualityDate], [Authorizations-Purchasing], [Authorizations-PurchasingDate], RfcNewRelease, RfcDesignError, RfcDraftingError, RfcRedrawError, RfcFacilitateProduction, RfcFacilitateInspection, RfcScheduleImprovement, RfcCostImprovement, RfcCustomerDirected, RfcVendorRequested, RfcSafteyInprovement, RfcOtherExplain FROM E037EngineeringChange WHERE (EngineeringChangeNumber = @EngineeringChangeNumber) ORDER BY EngineeringChangeNumber DESC</value>
+  </data>
+  <metadata name="DaE039PrototypeRep.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1386</value>
+  </metadata>
+  <metadata name="DaE040BillOfMatChng.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1423</value>
+  </metadata>
+  <metadata name="DaE041DocChngNtc.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1460</value>
+  </metadata>
+  <metadata name="DaE042SpecChngNtc.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1497</value>
+  </metadata>
+  <metadata name="DaE043EquivItmAuth.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1053</value>
+  </metadata>
+  <metadata name="DaE044DocRelNtc.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 535</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM E044DocumentReleaseNotice WHERE (DocumentReleaseNoticeNumberID = @Original_DocumentReleaseNoticeNumberID) AND (DocumentControl = @Original_DocumentControl OR @Original_DocumentControl IS NULL AND DocumentControl IS NULL) AND (DocumentReleasePhase = @Original_DocumentReleasePhase OR @Original_DocumentReleasePhase IS NULL AND DocumentReleasePhase IS NULL) AND (Engineer = @Original_Engineer OR @Original_Engineer IS NULL AND Engineer IS NULL) AND (EngineerDate = @Original_EngineerDate OR @Original_EngineerDate IS NULL AND EngineerDate IS NULL) AND (EngineeringManager = @Original_EngineeringManager OR @Original_EngineeringManager IS NULL AND EngineeringManager IS NULL) AND (EngineeringManagerDate = @Original_EngineeringManagerDate OR @Original_EngineeringManagerDate IS NULL AND EngineeringManagerDate IS NULL) AND (Priority = @Original_Priority OR @Original_Priority IS NULL AND Priority IS NULL) AND (ReleaseDate = @Original_ReleaseDate OR @Original_ReleaseDate IS NULL AND ReleaseDate IS NULL)</value>
+  </data>
+  <metadata name="SqlInsertCommand22.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand22.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand22.CommandText" xml:space="preserve">
+    <value>INSERT INTO E044DocumentReleaseNotice(Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, Priority, DocumentReleasePhase, DocumentControl, ReleaseDate) VALUES (@Engineer, @EngineerDate, @EngineeringManager, @EngineeringManagerDate, @Priority, @DocumentReleasePhase, @DocumentControl, @ReleaseDate); SELECT DocumentReleaseNoticeNumberID, Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, Priority, DocumentReleasePhase, DocumentControl, ReleaseDate FROM E044DocumentReleaseNotice WHERE (DocumentReleaseNoticeNumberID = @@IDENTITY) ORDER BY DocumentReleaseNoticeNumberID DESC</value>
+  </data>
+  <metadata name="SqlSelectCommand22.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand22.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand22.CommandText" xml:space="preserve">
+    <value>SELECT DocumentReleaseNoticeNumberID, Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, Priority, DocumentReleasePhase, DocumentControl, ReleaseDate FROM E044DocumentReleaseNotice ORDER BY DocumentReleaseNoticeNumberID DESC</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE E044DocumentReleaseNotice SET Engineer = @Engineer, EngineerDate = @EngineerDate, EngineeringManager = @EngineeringManager, EngineeringManagerDate = @EngineeringManagerDate, Priority = @Priority, DocumentReleasePhase = @DocumentReleasePhase, DocumentControl = @DocumentControl, ReleaseDate = @ReleaseDate WHERE (DocumentReleaseNoticeNumberID = @Original_DocumentReleaseNoticeNumberID) AND (DocumentControl = @Original_DocumentControl OR @Original_DocumentControl IS NULL AND DocumentControl IS NULL) AND (DocumentReleasePhase = @Original_DocumentReleasePhase OR @Original_DocumentReleasePhase IS NULL AND DocumentReleasePhase IS NULL) AND (Engineer = @Original_Engineer OR @Original_Engineer IS NULL AND Engineer IS NULL) AND (EngineerDate = @Original_EngineerDate OR @Original_EngineerDate IS NULL AND EngineerDate IS NULL) AND (EngineeringManager = @Original_EngineeringManager OR @Original_EngineeringManager IS NULL AND EngineeringManager IS NULL) AND (EngineeringManagerDate = @Original_EngineeringManagerDate OR @Original_EngineeringManagerDate IS NULL AND EngineeringManagerDate IS NULL) AND (Priority = @Original_Priority OR @Original_Priority IS NULL AND Priority IS NULL) AND (ReleaseDate = @Original_ReleaseDate OR @Original_ReleaseDate IS NULL AND ReleaseDate IS NULL); SELECT DocumentReleaseNoticeNumberID, Engineer, EngineerDate, EngineeringManager, EngineeringManagerDate, Priority, DocumentReleasePhase, DocumentControl, ReleaseDate FROM E044DocumentReleaseNotice WHERE (DocumentReleaseNoticeNumberID = @DocumentReleaseNoticeNumberID) ORDER BY DocumentReleaseNoticeNumberID DESC</value>
+  </data>
+  <metadata name="DaE044RelDocs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 572</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [E044ReleasedDocuments] WHERE (((@IsNull_FileName = 1 AND [FileName] IS NULL) OR ([FileName] = @Original_FileName)) AND ((@IsNull_Layout = 1 AND [Layout] IS NULL) OR ([Layout] = @Original_Layout)) AND ((@IsNull_TitleBlock = 1 AND [TitleBlock] IS NULL) OR ([TitleBlock] = @Original_TitleBlock)) AND ((@IsNull_RevisionBlock = 1 AND [RevisionBlock] IS NULL) OR ([RevisionBlock] = @Original_RevisionBlock)) AND ((@IsNull_ControlStamp = 1 AND [ControlStamp] IS NULL) OR ([ControlStamp] = @Original_ControlStamp)) AND ([DocumentReleaseNoticeNumber] = @Original_DocumentReleaseNoticeNumber) AND ([DocumentNumberID] = @Original_DocumentNumberID))</value>
+  </data>
+  <metadata name="SqlInsertCommand23.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand23.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand23.CommandText" xml:space="preserve">
+    <value>INSERT INTO [E044ReleasedDocuments] ([FileName], [Layout], [TitleBlock], [RevisionBlock], [ControlStamp], [DocumentReleaseNoticeNumber]) VALUES (@FileName, @Layout, @TitleBlock, @RevisionBlock, @ControlStamp, @DocumentReleaseNoticeNumber);
+SELECT FileName, Layout, TitleBlock, RevisionBlock, ControlStamp, DocumentReleaseNoticeNumber, DocumentNumberID FROM E044ReleasedDocuments WHERE (DocumentNumberID = SCOPE_IDENTITY()) ORDER BY DocumentNumberID</value>
+  </data>
+  <metadata name="SqlSelectCommand23.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand23.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [E044ReleasedDocuments] SET [FileName] = @FileName, [Layout] = @Layout, [TitleBlock] = @TitleBlock, [RevisionBlock] = @RevisionBlock, [ControlStamp] = @ControlStamp, [DocumentReleaseNoticeNumber] = @DocumentReleaseNoticeNumber WHERE (((@IsNull_FileName = 1 AND [FileName] IS NULL) OR ([FileName] = @Original_FileName)) AND ((@IsNull_Layout = 1 AND [Layout] IS NULL) OR ([Layout] = @Original_Layout)) AND ((@IsNull_TitleBlock = 1 AND [TitleBlock] IS NULL) OR ([TitleBlock] = @Original_TitleBlock)) AND ((@IsNull_RevisionBlock = 1 AND [RevisionBlock] IS NULL) OR ([RevisionBlock] = @Original_RevisionBlock)) AND ((@IsNull_ControlStamp = 1 AND [ControlStamp] IS NULL) OR ([ControlStamp] = @Original_ControlStamp)) AND ([DocumentReleaseNoticeNumber] = @Original_DocumentReleaseNoticeNumber) AND ([DocumentNumberID] = @Original_DocumentNumberID));
+SELECT FileName, Layout, TitleBlock, RevisionBlock, ControlStamp, DocumentReleaseNoticeNumber, DocumentNumberID FROM E044ReleasedDocuments WHERE (DocumentNumberID = @DocumentNumberID) ORDER BY DocumentNumberID</value>
+  </data>
+  <metadata name="DaE045EngChPrtNumIn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 424</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand5.CommandText" xml:space="preserve">
+    <value>DELETE FROM E045EngineeringChangePartNumberInput WHERE (EngineeringChangePartNumberInputNumber = @Original_EngineeringChangePartNumberInputNumber) AND (BillofMaterialSheets = @Original_BillofMaterialSheets OR @Original_BillofMaterialSheets IS NULL AND BillofMaterialSheets IS NULL) AND (DocumentNumber = @Original_DocumentNumber OR @Original_DocumentNumber IS NULL AND DocumentNumber IS NULL) AND (DocumentSize = @Original_DocumentSize OR @Original_DocumentSize IS NULL AND DocumentSize IS NULL) AND (DocumentTitle = @Original_DocumentTitle OR @Original_DocumentTitle IS NULL AND DocumentTitle IS NULL) AND (NumberofSheets = @Original_NumberofSheets OR @Original_NumberofSheets IS NULL AND NumberofSheets IS NULL)</value>
+  </data>
+  <metadata name="SqlInsertCommand24.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand24.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand24.CommandText" xml:space="preserve">
+    <value>INSERT INTO E045EngineeringChangePartNumberInput(DocumentNumber, DocumentTitle, NumberofSheets, DocumentSize, BillofMaterialSheets) VALUES (@DocumentNumber, @DocumentTitle, @NumberofSheets, @DocumentSize, @BillofMaterialSheets); SELECT EngineeringChangePartNumberInputNumber, DocumentNumber, DocumentTitle, NumberofSheets, DocumentSize, BillofMaterialSheets FROM E045EngineeringChangePartNumberInput WHERE (EngineeringChangePartNumberInputNumber = @@IDENTITY) ORDER BY EngineeringChangePartNumberInputNumber DESC</value>
+  </data>
+  <metadata name="SqlSelectCommand24.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand24.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlSelectCommand24.CommandText" xml:space="preserve">
+    <value>SELECT EngineeringChangePartNumberInputNumber, DocumentNumber, DocumentTitle, NumberofSheets, DocumentSize, BillofMaterialSheets FROM E045EngineeringChangePartNumberInput ORDER BY EngineeringChangePartNumberInputNumber DESC</value>
+  </data>
+  <metadata name="SqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE E045EngineeringChangePartNumberInput SET DocumentNumber = @DocumentNumber, DocumentTitle = @DocumentTitle, NumberofSheets = @NumberofSheets, DocumentSize = @DocumentSize, BillofMaterialSheets = @BillofMaterialSheets WHERE (EngineeringChangePartNumberInputNumber = @Original_EngineeringChangePartNumberInputNumber) AND (BillofMaterialSheets = @Original_BillofMaterialSheets OR @Original_BillofMaterialSheets IS NULL AND BillofMaterialSheets IS NULL) AND (DocumentNumber = @Original_DocumentNumber OR @Original_DocumentNumber IS NULL AND DocumentNumber IS NULL) AND (DocumentSize = @Original_DocumentSize OR @Original_DocumentSize IS NULL AND DocumentSize IS NULL) AND (DocumentTitle = @Original_DocumentTitle OR @Original_DocumentTitle IS NULL AND DocumentTitle IS NULL) AND (NumberofSheets = @Original_NumberofSheets OR @Original_NumberofSheets IS NULL AND NumberofSheets IS NULL); SELECT EngineeringChangePartNumberInputNumber, DocumentNumber, DocumentTitle, NumberofSheets, DocumentSize, BillofMaterialSheets FROM E045EngineeringChangePartNumberInput WHERE (EngineeringChangePartNumberInputNumber = @EngineeringChangePartNumberInputNumber) ORDER BY EngineeringChangePartNumberInputNumber DESC</value>
+  </data>
+  <metadata name="DaE046CopyReq.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 276</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand26.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand26.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand26.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand26.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand26.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand26.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DaE046SubTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 313</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand27.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand27.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand27.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand27.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand27.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand27.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DaEmployees.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1164</value>
+  </metadata>
+  <metadata name="DaOrderDetails.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 831</value>
+  </metadata>
+  <metadata name="DaOrders.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1349</value>
+  </metadata>
+  <metadata name="DaProducts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1238</value>
+  </metadata>
+  <metadata name="DaProjClass.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1127</value>
+  </metadata>
+  <metadata name="DaProjDepartments.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 1090</value>
+  </metadata>
+  <metadata name="DaProjIs.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 942</value>
+  </metadata>
+  <metadata name="DaProjTypes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 868</value>
+  </metadata>
+  <metadata name="DaTimeBilled.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 757</value>
+  </metadata>
+  <metadata name="daTrkBlkNames.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 239</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand37.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand37.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand37.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand37.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand37.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand37.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DaE045SubTable.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 165</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand25.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand25.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand25.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand25.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DaRevTxt.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlInsertCommand38.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand38.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand38.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand38.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand38.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand38.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DataSet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 683</value>
+  </metadata>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>

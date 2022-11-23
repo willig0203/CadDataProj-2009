@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CadDataProj 2009", "CadDataProj 2009.vbproj", "{046F95F0-05E5-4BC6-91E7-BD87333CEB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clsUtil", "clsUtil\clsUtil.csproj", "{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = CadDataProj\u00202009
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:ComponentSoftware\u0020RCS
+		CanCheckoutShared = true
+		SccProjectUniqueName1 = CadDataProj\u00202009.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
