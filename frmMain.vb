@@ -189,7 +189,7 @@ Namespace nsForms
             ucE025BomItmMstr.Dock = System.Windows.Forms.DockStyle.Fill : tpE025BOMItmMstr.Controls.Add(ucE025BomItmMstr)
             ucBLManagment.Dock = System.Windows.Forms.DockStyle.Fill : tpBLManagment.Controls.Add(ucBLManagment)
             ucDwgLstTbLst.Dock = System.Windows.Forms.DockStyle.Fill : tpDwgLstTbLst.Controls.Add(ucDwgLstTbLst)
-            ucOther.Dock = System.Windows.Forms.DockStyle.None : tpOther.Controls.Add(ucOther)
+            'ucOther.Dock = System.Windows.Forms.DockStyle.None : tpOther.Controls.Add(ucOther)
 
 
         End Sub

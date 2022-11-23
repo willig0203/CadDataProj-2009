@@ -21,8 +21,8 @@ Namespace nsMods
         Public ucE037ECO As New ucE037ECO
         Public ucE025BomItmMstr As New ucE025BomItmMstr
         Public ucBLManagment As New ucBLManagment
-        Public ucDwgLstTbLst As New ucDwgLstTblst
-        Public ucOther As New ucOther
+        Public ucDwgLstTbLst As New ucDwgLstTbLst
+        ' Public ucOther As New ucOther
 
         ' Data Component
 
@@ -43,7 +43,7 @@ Namespace nsMods
 
 
         ' Reports
-        Public rptE044DRN1 As New rptE044DRN
+        'Public rptE044DRN1 As New rptE044DRN
 
         ' Public PassedDataTable As DataTable
         ' Public E044drnClone As DataTable = SqlDaComp.DataSet11.E044DocumentReleaseNotice.Clone

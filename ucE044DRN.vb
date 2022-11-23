@@ -730,8 +730,8 @@ Namespace nsUserCtls
         End Sub
 
         Private Sub miRptAllDRN_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles miRptAllDRN.Click
-            Dim RepFrm As New frmReport
-            RepFrm.Show()
+            'Dim RepFrm As New frmReport
+            'RepFrm.Show()
         End Sub
 
         Private Sub miClrDRN_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles miClrDRN.Click

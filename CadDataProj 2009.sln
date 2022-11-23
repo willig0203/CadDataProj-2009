@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CadDataProj 2009", "CadDataProj 2009.vbproj", "{046F95F0-05E5-4BC6-91E7-BD87333CEB60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clsUtil", "clsUtil\clsUtil.csproj", "{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sql01_Report", "Sql01_Report\Sql01_Report.vbproj", "{278D24B6-2716-4EB9-AFC6-E49F7B05BB5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,16 +12,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{046F95F0-05E5-4BC6-91E7-BD87333CEB60}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{278D24B6-2716-4EB9-AFC6-E49F7B05BB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{278D24B6-2716-4EB9-AFC6-E49F7B05BB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{278D24B6-2716-4EB9-AFC6-E49F7B05BB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{278D24B6-2716-4EB9-AFC6-E49F7B05BB5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

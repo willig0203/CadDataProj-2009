@@ -8,32 +8,85 @@ Imports System.Type
 Imports System.CLSCompliantAttribute
 Imports System.Reflection
 Imports System.Runtime.InteropServices
-
+Imports System.Drawing
+Imports System.Drawing.Imaging
+Imports System.IO
+Imports System.Windows.Media.Imaging
 Imports Autodesk.AutoCAD.Runtime
+
+
 Imports Autodesk.AutoCAD.Interop
 Imports Autodesk.AutoCAD.ApplicationServices
 Imports Autodesk.AutoCAD.DatabaseServices
 Imports Autodesk.AutoCAD.EditorInput
+Imports Autodesk.Windows
+Imports Autodesk.AutoCAD.Windows
 
 Imports rnsCadDataProj.nsMods
 
-<Assembly: ExtensionApplication(GetType(nsCadDataProj.CadDataProj))> 
-<Assembly: CommandClass(GetType(nsCadDataProj.CadDataProjCommands))> 
+<Assembly: ExtensionApplication(GetType(nsCadDataProj.CadDataProj))>
+<Assembly: CommandClass(GetType(nsCadDataProj.CadDataProjCommands))>
 
 Namespace nsCadDataProj
 
     Public Class CadDataProj
-        Implements Autodesk.AutoCAD.Runtime.IExtensionApplication
+        'Implements Autodesk.AutoCAD.Runtime.IExtensionApplication
+        Implements IExtensionApplication
+
+        'Public Sub Initialize() Implements Autodesk.AutoCAD.Runtime.IExtensionApplication.Initialize
+        '    Dim doc As Document = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.MdiActiveDocument
+        '    Dim ed As Editor = doc.Editor
+        '    Try
+        '        AddHandler Autodesk.AutoCAD.Ribbon.RibbonServices.RibbonPaletteSetCreated, AddressOf RibbonServices_RibbonPaletteSetCreated
+
+        '    Catch ex As System.Exception
+        '        ed.WriteMessage(vbLf & "Loading ribbon failed:")
+        '        ed.WriteMessage(vbLf & "{0}", ex.ToString())
+        '    End Try
+
+        '    Autodesk.AutoCAD.Internal.Utils.PostCommandPrompt()
+        'End Sub
+
+        'Private Sub RibbonPaletteSet_Loaded(sender As Object, e As EventArgs)
+        '    'Load ribbon here
+        '    CreateRibbon()
+
+
+        'End Sub
+
+        'Private Sub CreateRibbon()
+        '    'declare a ribboncontrol object
+        '    Dim ribCntrl As RibbonControl = ComponentManager.Ribbon
+        '    'create a ribbontab
+        '    Dim ribTab As New RibbonTab()
+        '    'set a few properties
+        '    ribTab.Title = "AU2009"
+        '    ribTab.Id = "AU2009"
+        '    'add the tab to the ribbon
+        '    ribCntrl.Tabs.Add(ribTab)
+        '    'set as active tab
+        '    ribTab.IsActive = True
+
+        'End Sub
+
+        'Private Sub RibbonServices_RibbonPaletteSetCreated(sender As Object, e As EventArgs)
+        '    AddHandler Autodesk.AutoCAD.Ribbon.RibbonServices.RibbonPaletteSet.Load, AddressOf RibbonPaletteSet_Loaded
+
+        'End Sub
+
+
+        'Public Sub Terminate() Implements Autodesk.AutoCAD.Runtime.IExtensionApplication.Terminate
+        'End Sub
+
 
         Public Sub Initialize() Implements Autodesk.AutoCAD.Runtime.IExtensionApplication.Initialize
             ' Create an AutoCAD toolbar with 4 buttons linked to the 4 commands defined below
             Dim helloModule As System.Reflection.Module = System.Reflection.Assembly.GetExecutingAssembly().GetModules()(0)
             Dim helloModulePath As String = helloModule.FullyQualifiedName
             Try
-                helloModulePath = helloModulePath.Substring(0, helloModulePath.LastIndexOf("\"))
-                helloModulePath = helloModulePath.Substring(0, helloModulePath.LastIndexOf("\"))
+                helloModulePath = helloModulePath.Substring(0, helloModulePath.LastIndexOf("\bin"))
             Catch
-                MessageBox.Show("Error with Module Path")
+                Windows.Forms.MessageBox.Show("Error with Module Path")
                 Exit Sub
             End Try
             Dim acadApp As Autodesk.AutoCAD.Interop.AcadApplication = Autodesk.AutoCAD.ApplicationServices.Application.AcadApplication

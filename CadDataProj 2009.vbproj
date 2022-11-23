@@ -40,7 +40,7 @@
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <SccAuxPath>
     </SccAuxPath>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <PublishUrl>http://localhost/CadDataProjAsmbly/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -157,6 +157,8 @@
     <Reference Include="Microsoft.VisualBasic.Compatibility">
       <Name>Microsoft.VisualBasic.Compatibility</Name>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -182,6 +184,7 @@
       <Name>ThumbNailShell</Name>
       <HintPath>..\ThumbNailShell\ThumbNailShell\bin\Debug\ThumbNailShell.dll</HintPath>
     </Reference>
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -224,9 +227,6 @@
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmReport.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="modGlobal.vb">
       <SubType>Code</SubType>
     </Compile>
@@ -238,12 +238,6 @@
     </Compile>
     <Compile Include="modUtility.vb">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="rptE044DRN.vb">
-      <DependentUpon>rptE044DRN.rpt</DependentUpon>
-      <SubType>Component</SubType>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="ucAttOptions.vb">
       <SubType>UserControl</SubType>
@@ -272,9 +266,9 @@
     <Compile Include="ucE046CRN.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucOther.vb">
+    <None Include="ucOther.vb">
       <SubType>UserControl</SubType>
-    </Compile>
+    </None>
     <Compile Include="ucRevisions.vb">
       <SubType>UserControl</SubType>
     </Compile>
@@ -307,14 +301,6 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmReport.resx">
-      <DependentUpon>frmReport.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="rptE044DRN.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptE044DRN.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="ucAttOptions.resx">
       <DependentUpon>ucAttOptions.vb</DependentUpon>
@@ -415,12 +401,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="clsUtil\clsUtil.csproj">
-      <Project>{47EA7B6F-CD52-44CD-9E1C-EAFFF52119C1}</Project>
-      <Name>clsUtil</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="My Project\" />
