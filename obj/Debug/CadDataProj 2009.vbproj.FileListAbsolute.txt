@@ -133,8 +133,8 @@ C:\Users\willi\Desktop\CadDataProj 2009\bin\en-US\AcWindows.resources.dll
 C:\Users\willi\Desktop\CadDataProj 2009\bin\en-US\AdWindows.resources.dll
 C:\Users\willi\Desktop\CadDataProj 2009\bin\en-US\AcDxPublishUi.resources.dll
 C:\Users\willi\Desktop\CadDataProj 2009\bin\en-US\AdMigLib.resources.dll
+C:\Users\willi\Desktop\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbproj.AssemblyReference.cache
 C:\Users\willi\Desktop\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbproj.CopyComplete
 C:\Users\willi\Desktop\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.dll
 C:\Users\willi\Desktop\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.xml
 C:\Users\willi\Desktop\CadDataProj 2009\obj\Debug\CadDataProjAsmbly.pdb
-C:\Users\willi\Desktop\CadDataProj 2009\obj\Debug\CadDataProj 2009.vbproj.AssemblyReference.cache

@@ -254,11 +254,14 @@ Namespace nsMods
         End Sub
 
         Public Sub HlpDwg(ByVal HelpFileName As String, ByVal cLayout As String, ByVal rOnly As Boolean)
-            Dim Doc As Autodesk.AutoCAD.ApplicationServices.Document
+
             Dim db As Database = HostApplicationServices.WorkingDatabase
             Dim trans As Transaction = db.TransactionManager.StartTransaction()
-            '  Doc = Autodesk.AutoCAD.ApplicationServices.DocumentCollectionExtension.Open(HelpFileName, rOnly)
-            Dim docLock As DocumentLock = Doc.LockDocument()
+            ' Doc = Autodesk.AutoCAD.ApplicationServices.DocumentCollectionExtension.Open(HelpFileName, rOnly)
+            'Dim Doc As Autodesk.AutoCAD.ApplicationServices.Document
+            'Dim docLock As DocumentLock = Doc.LockDocument()
+            Dim DocCol As DocumentCollection = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager
+            Dim docLock As DocumentLock = DocCol.MdiActiveDocument.LockDocument()
             Try : Dim LayMan As LayoutManager = LayoutManager.Current
                 LayMan.CurrentLayout = cLayout
             Finally : docLock.Dispose() : trans.Dispose() ': Me.Hide()

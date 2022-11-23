@@ -104,57 +104,57 @@ Namespace nsUserCtls
         Friend WithEvents miGetLayoutsCurrentDwg As System.Windows.Forms.MenuItem
         Friend WithEvents rbtnMkDwfBook As System.Windows.Forms.RadioButton
         <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-            Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog
-            Me.cmnuFileLst = New System.Windows.Forms.ContextMenu
-            Me.miGetFls = New System.Windows.Forms.MenuItem
-            Me.miClrLst = New System.Windows.Forms.MenuItem
-            Me.miOpnFlsGtLyts = New System.Windows.Forms.MenuItem
-            Me.miGetLayoutsCurrentDwg = New System.Windows.Forms.MenuItem
-            Me.cmnuUpdateTBlst = New System.Windows.Forms.ContextMenu
-            Me.miUpDateTBds = New System.Windows.Forms.MenuItem
-            Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog
-            Me.cmnuTransToNewFrm = New System.Windows.Forms.ContextMenu
-            Me.miTransToE044DRN = New System.Windows.Forms.MenuItem
-            Me.miTransToE046CRN = New System.Windows.Forms.MenuItem
-            Me.miTransToE025BOM = New System.Windows.Forms.MenuItem
-            Me.miTransToEMail = New System.Windows.Forms.MenuItem
-            Me.miClrCloneTbl = New System.Windows.Forms.MenuItem
-            Me.Panel1 = New System.Windows.Forms.Panel
-            Me.btnShowBrowserForm = New System.Windows.Forms.Button
-            Me.Label1 = New System.Windows.Forms.Label
-            Me.ListBox1 = New System.Windows.Forms.ListBox
-            Me.btnShowBlockMan = New System.Windows.Forms.Button
-            Me.GroupBox1 = New System.Windows.Forms.GroupBox
-            Me.chkbxFade255 = New System.Windows.Forms.CheckBox
-            Me.rbtnMkDwfBook = New System.Windows.Forms.RadioButton
-            Me.rbPltToFit = New System.Windows.Forms.RadioButton
-            Me.chkbxAddNextRev = New System.Windows.Forms.CheckBox
-            Me.chkbxAllLayouts = New System.Windows.Forms.CheckBox
-            Me.rbtnPltwStoredSettings = New System.Windows.Forms.RadioButton
-            Me.rbtnPlt1to1 = New System.Windows.Forms.RadioButton
-            Me.chkbxCloseAndDiscard = New System.Windows.Forms.CheckBox
-            Me.chkbxClrRevs = New System.Windows.Forms.CheckBox
-            Me.chkbxCloseAndSave = New System.Windows.Forms.CheckBox
-            Me.chkbxAddRevsFrmLst = New System.Windows.Forms.CheckBox
-            Me.rbtnPltLayoutsDWF1to1 = New System.Windows.Forms.RadioButton
-            Me.Splitter1 = New System.Windows.Forms.Splitter
-            Me.TabControl2 = New System.Windows.Forms.TabControl
-            Me.tpGridView = New System.Windows.Forms.TabPage
-            Me.dgBldLst = New System.Windows.Forms.DataGrid
-            Me.tpListBox = New System.Windows.Forms.TabPage
-            Me.lstBxXrefs = New System.Windows.Forms.ListBox
-            Me.Splitter2 = New System.Windows.Forms.Splitter
-            Me.ListBox3 = New System.Windows.Forms.ListBox
-            Me.tpBlockList = New System.Windows.Forms.TabPage
-            Me.DataGrid4 = New System.Windows.Forms.DataGrid
-            Me.tpRevisions = New System.Windows.Forms.TabPage
-            Me.UcRevisions1 = New rnsCadDataProj.nsUserCtls.ucRevisions
-            Me.tpAttOptions = New System.Windows.Forms.TabPage
-            Me.UcAttOptions1 = New rnsCadDataProj.nsUserCtls.ucAttOptions
-            Me.tpBatchOptions = New System.Windows.Forms.TabPage
-            Me.tpTransmitDocsData = New System.Windows.Forms.TabPage
-            Me.tpStamps = New System.Windows.Forms.TabPage
-            Me.UcStamps1 = New rnsCadDataProj.nsUserCtls.ucStamps
+            Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+            Me.cmnuFileLst = New System.Windows.Forms.ContextMenu()
+            Me.miGetFls = New System.Windows.Forms.MenuItem()
+            Me.miClrLst = New System.Windows.Forms.MenuItem()
+            Me.miOpnFlsGtLyts = New System.Windows.Forms.MenuItem()
+            Me.miGetLayoutsCurrentDwg = New System.Windows.Forms.MenuItem()
+            Me.cmnuUpdateTBlst = New System.Windows.Forms.ContextMenu()
+            Me.miUpDateTBds = New System.Windows.Forms.MenuItem()
+            Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+            Me.cmnuTransToNewFrm = New System.Windows.Forms.ContextMenu()
+            Me.miTransToE044DRN = New System.Windows.Forms.MenuItem()
+            Me.miTransToE046CRN = New System.Windows.Forms.MenuItem()
+            Me.miTransToE025BOM = New System.Windows.Forms.MenuItem()
+            Me.miTransToEMail = New System.Windows.Forms.MenuItem()
+            Me.miClrCloneTbl = New System.Windows.Forms.MenuItem()
+            Me.Panel1 = New System.Windows.Forms.Panel()
+            Me.btnShowBrowserForm = New System.Windows.Forms.Button()
+            Me.Label1 = New System.Windows.Forms.Label()
+            Me.ListBox1 = New System.Windows.Forms.ListBox()
+            Me.btnShowBlockMan = New System.Windows.Forms.Button()
+            Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+            Me.chkbxFade255 = New System.Windows.Forms.CheckBox()
+            Me.rbtnMkDwfBook = New System.Windows.Forms.RadioButton()
+            Me.rbPltToFit = New System.Windows.Forms.RadioButton()
+            Me.chkbxAddNextRev = New System.Windows.Forms.CheckBox()
+            Me.chkbxAllLayouts = New System.Windows.Forms.CheckBox()
+            Me.rbtnPltwStoredSettings = New System.Windows.Forms.RadioButton()
+            Me.rbtnPlt1to1 = New System.Windows.Forms.RadioButton()
+            Me.chkbxCloseAndDiscard = New System.Windows.Forms.CheckBox()
+            Me.chkbxClrRevs = New System.Windows.Forms.CheckBox()
+            Me.chkbxCloseAndSave = New System.Windows.Forms.CheckBox()
+            Me.chkbxAddRevsFrmLst = New System.Windows.Forms.CheckBox()
+            Me.rbtnPltLayoutsDWF1to1 = New System.Windows.Forms.RadioButton()
+            Me.Splitter1 = New System.Windows.Forms.Splitter()
+            Me.TabControl2 = New System.Windows.Forms.TabControl()
+            Me.tpGridView = New System.Windows.Forms.TabPage()
+            Me.dgBldLst = New System.Windows.Forms.DataGrid()
+            Me.tpListBox = New System.Windows.Forms.TabPage()
+            Me.lstBxXrefs = New System.Windows.Forms.ListBox()
+            Me.Splitter2 = New System.Windows.Forms.Splitter()
+            Me.ListBox3 = New System.Windows.Forms.ListBox()
+            Me.tpBlockList = New System.Windows.Forms.TabPage()
+            Me.DataGrid4 = New System.Windows.Forms.DataGrid()
+            Me.tpRevisions = New System.Windows.Forms.TabPage()
+            Me.UcRevisions1 = New rnsCadDataProj.nsUserCtls.ucRevisions()
+            Me.tpAttOptions = New System.Windows.Forms.TabPage()
+            Me.UcAttOptions1 = New rnsCadDataProj.nsUserCtls.ucAttOptions()
+            Me.tpBatchOptions = New System.Windows.Forms.TabPage()
+            Me.tpTransmitDocsData = New System.Windows.Forms.TabPage()
+            Me.tpStamps = New System.Windows.Forms.TabPage()
+            Me.UcStamps1 = New rnsCadDataProj.nsUserCtls.ucStamps()
             Me.Panel1.SuspendLayout()
             Me.GroupBox1.SuspendLayout()
             Me.TabControl2.SuspendLayout()
@@ -260,7 +260,7 @@ Namespace nsUserCtls
             'Label1
             '
             Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                        Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
             Me.Label1.Location = New System.Drawing.Point(8, 8)
             Me.Label1.Name = "Label1"
             Me.Label1.Size = New System.Drawing.Size(608, 23)
@@ -271,13 +271,14 @@ Namespace nsUserCtls
             'ListBox1
             '
             Me.ListBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                        Or System.Windows.Forms.AnchorStyles.Left) _
-                        Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
             Me.ListBox1.ContextMenu = Me.cmnuFileLst
             Me.ListBox1.HorizontalScrollbar = True
+            Me.ListBox1.ItemHeight = 31
             Me.ListBox1.Location = New System.Drawing.Point(8, 32)
             Me.ListBox1.Name = "ListBox1"
-            Me.ListBox1.Size = New System.Drawing.Size(536, 134)
+            Me.ListBox1.Size = New System.Drawing.Size(536, 128)
             Me.ListBox1.TabIndex = 14
             '
             'btnShowBlockMan
@@ -304,7 +305,7 @@ Namespace nsUserCtls
             Me.GroupBox1.Controls.Add(Me.chkbxCloseAndSave)
             Me.GroupBox1.Controls.Add(Me.chkbxAddRevsFrmLst)
             Me.GroupBox1.Controls.Add(Me.rbtnPltLayoutsDWF1to1)
-            Me.GroupBox1.Location = New System.Drawing.Point(16, 16)
+            Me.GroupBox1.Location = New System.Drawing.Point(4, 16)
             Me.GroupBox1.Name = "GroupBox1"
             Me.GroupBox1.Size = New System.Drawing.Size(440, 224)
             Me.GroupBox1.TabIndex = 25
@@ -315,7 +316,7 @@ Namespace nsUserCtls
             Me.chkbxFade255.AutoSize = True
             Me.chkbxFade255.Location = New System.Drawing.Point(8, 16)
             Me.chkbxFade255.Name = "chkbxFade255"
-            Me.chkbxFade255.Size = New System.Drawing.Size(71, 17)
+            Me.chkbxFade255.Size = New System.Drawing.Size(173, 36)
             Me.chkbxFade255.TabIndex = 26
             Me.chkbxFade255.Text = "Fade 255"
             Me.chkbxFade255.UseVisualStyleBackColor = True
@@ -437,9 +438,9 @@ Namespace nsUserCtls
             'tpGridView
             '
             Me.tpGridView.Controls.Add(Me.dgBldLst)
-            Me.tpGridView.Location = New System.Drawing.Point(4, 22)
+            Me.tpGridView.Location = New System.Drawing.Point(10, 48)
             Me.tpGridView.Name = "tpGridView"
-            Me.tpGridView.Size = New System.Drawing.Size(616, 275)
+            Me.tpGridView.Size = New System.Drawing.Size(604, 243)
             Me.tpGridView.TabIndex = 2
             Me.tpGridView.Text = "Grid View"
             '
@@ -451,7 +452,7 @@ Namespace nsUserCtls
             Me.dgBldLst.HeaderForeColor = System.Drawing.SystemColors.ControlText
             Me.dgBldLst.Location = New System.Drawing.Point(0, 0)
             Me.dgBldLst.Name = "dgBldLst"
-            Me.dgBldLst.Size = New System.Drawing.Size(616, 275)
+            Me.dgBldLst.Size = New System.Drawing.Size(604, 243)
             Me.dgBldLst.TabIndex = 0
             '
             'tpListBox
@@ -459,9 +460,9 @@ Namespace nsUserCtls
             Me.tpListBox.Controls.Add(Me.lstBxXrefs)
             Me.tpListBox.Controls.Add(Me.Splitter2)
             Me.tpListBox.Controls.Add(Me.ListBox3)
-            Me.tpListBox.Location = New System.Drawing.Point(4, 22)
+            Me.tpListBox.Location = New System.Drawing.Point(10, 48)
             Me.tpListBox.Name = "tpListBox"
-            Me.tpListBox.Size = New System.Drawing.Size(616, 275)
+            Me.tpListBox.Size = New System.Drawing.Size(604, 243)
             Me.tpListBox.TabIndex = 0
             Me.tpListBox.Text = "List Box"
             Me.tpListBox.Visible = False
@@ -470,34 +471,36 @@ Namespace nsUserCtls
             '
             Me.lstBxXrefs.Dock = System.Windows.Forms.DockStyle.Fill
             Me.lstBxXrefs.FormattingEnabled = True
-            Me.lstBxXrefs.Location = New System.Drawing.Point(0, 111)
+            Me.lstBxXrefs.ItemHeight = 31
+            Me.lstBxXrefs.Location = New System.Drawing.Point(0, 100)
             Me.lstBxXrefs.Name = "lstBxXrefs"
-            Me.lstBxXrefs.Size = New System.Drawing.Size(616, 160)
+            Me.lstBxXrefs.Size = New System.Drawing.Size(604, 143)
             Me.lstBxXrefs.TabIndex = 19
             '
             'Splitter2
             '
             Me.Splitter2.Dock = System.Windows.Forms.DockStyle.Top
-            Me.Splitter2.Location = New System.Drawing.Point(0, 108)
+            Me.Splitter2.Location = New System.Drawing.Point(0, 97)
             Me.Splitter2.Name = "Splitter2"
-            Me.Splitter2.Size = New System.Drawing.Size(616, 3)
+            Me.Splitter2.Size = New System.Drawing.Size(604, 3)
             Me.Splitter2.TabIndex = 18
             Me.Splitter2.TabStop = False
             '
             'ListBox3
             '
             Me.ListBox3.Dock = System.Windows.Forms.DockStyle.Top
+            Me.ListBox3.ItemHeight = 31
             Me.ListBox3.Location = New System.Drawing.Point(0, 0)
             Me.ListBox3.Name = "ListBox3"
-            Me.ListBox3.Size = New System.Drawing.Size(616, 108)
+            Me.ListBox3.Size = New System.Drawing.Size(604, 97)
             Me.ListBox3.TabIndex = 17
             '
             'tpBlockList
             '
             Me.tpBlockList.Controls.Add(Me.DataGrid4)
-            Me.tpBlockList.Location = New System.Drawing.Point(4, 22)
+            Me.tpBlockList.Location = New System.Drawing.Point(10, 48)
             Me.tpBlockList.Name = "tpBlockList"
-            Me.tpBlockList.Size = New System.Drawing.Size(616, 275)
+            Me.tpBlockList.Size = New System.Drawing.Size(604, 243)
             Me.tpBlockList.TabIndex = 1
             Me.tpBlockList.Text = "Block List"
             Me.tpBlockList.Visible = False
@@ -510,15 +513,15 @@ Namespace nsUserCtls
             Me.DataGrid4.HeaderForeColor = System.Drawing.SystemColors.ControlText
             Me.DataGrid4.Location = New System.Drawing.Point(0, 0)
             Me.DataGrid4.Name = "DataGrid4"
-            Me.DataGrid4.Size = New System.Drawing.Size(616, 275)
+            Me.DataGrid4.Size = New System.Drawing.Size(604, 243)
             Me.DataGrid4.TabIndex = 0
             '
             'tpRevisions
             '
             Me.tpRevisions.Controls.Add(Me.UcRevisions1)
-            Me.tpRevisions.Location = New System.Drawing.Point(4, 22)
+            Me.tpRevisions.Location = New System.Drawing.Point(10, 48)
             Me.tpRevisions.Name = "tpRevisions"
-            Me.tpRevisions.Size = New System.Drawing.Size(616, 275)
+            Me.tpRevisions.Size = New System.Drawing.Size(604, 243)
             Me.tpRevisions.TabIndex = 3
             Me.tpRevisions.Text = "Revisions"
             '
@@ -527,15 +530,15 @@ Namespace nsUserCtls
             Me.UcRevisions1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.UcRevisions1.Location = New System.Drawing.Point(0, 0)
             Me.UcRevisions1.Name = "UcRevisions1"
-            Me.UcRevisions1.Size = New System.Drawing.Size(616, 275)
+            Me.UcRevisions1.Size = New System.Drawing.Size(604, 243)
             Me.UcRevisions1.TabIndex = 0
             '
             'tpAttOptions
             '
             Me.tpAttOptions.Controls.Add(Me.UcAttOptions1)
-            Me.tpAttOptions.Location = New System.Drawing.Point(4, 22)
+            Me.tpAttOptions.Location = New System.Drawing.Point(10, 48)
             Me.tpAttOptions.Name = "tpAttOptions"
-            Me.tpAttOptions.Size = New System.Drawing.Size(616, 275)
+            Me.tpAttOptions.Size = New System.Drawing.Size(604, 243)
             Me.tpAttOptions.TabIndex = 7
             Me.tpAttOptions.Text = "Att Options"
             '
@@ -544,32 +547,32 @@ Namespace nsUserCtls
             Me.UcAttOptions1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.UcAttOptions1.Location = New System.Drawing.Point(0, 0)
             Me.UcAttOptions1.Name = "UcAttOptions1"
-            Me.UcAttOptions1.Size = New System.Drawing.Size(616, 275)
+            Me.UcAttOptions1.Size = New System.Drawing.Size(604, 243)
             Me.UcAttOptions1.TabIndex = 0
             '
             'tpBatchOptions
             '
             Me.tpBatchOptions.Controls.Add(Me.GroupBox1)
-            Me.tpBatchOptions.Location = New System.Drawing.Point(4, 22)
+            Me.tpBatchOptions.Location = New System.Drawing.Point(10, 48)
             Me.tpBatchOptions.Name = "tpBatchOptions"
-            Me.tpBatchOptions.Size = New System.Drawing.Size(616, 275)
+            Me.tpBatchOptions.Size = New System.Drawing.Size(604, 243)
             Me.tpBatchOptions.TabIndex = 5
             Me.tpBatchOptions.Text = "Batch Options"
             '
             'tpTransmitDocsData
             '
-            Me.tpTransmitDocsData.Location = New System.Drawing.Point(4, 22)
+            Me.tpTransmitDocsData.Location = New System.Drawing.Point(10, 48)
             Me.tpTransmitDocsData.Name = "tpTransmitDocsData"
-            Me.tpTransmitDocsData.Size = New System.Drawing.Size(616, 275)
+            Me.tpTransmitDocsData.Size = New System.Drawing.Size(604, 243)
             Me.tpTransmitDocsData.TabIndex = 6
             Me.tpTransmitDocsData.Text = "Transmit Docs & Data"
             '
             'tpStamps
             '
             Me.tpStamps.Controls.Add(Me.UcStamps1)
-            Me.tpStamps.Location = New System.Drawing.Point(4, 22)
+            Me.tpStamps.Location = New System.Drawing.Point(10, 48)
             Me.tpStamps.Name = "tpStamps"
-            Me.tpStamps.Size = New System.Drawing.Size(616, 275)
+            Me.tpStamps.Size = New System.Drawing.Size(604, 243)
             Me.tpStamps.TabIndex = 4
             Me.tpStamps.Text = "Stamps"
             '
@@ -578,7 +581,7 @@ Namespace nsUserCtls
             Me.UcStamps1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.UcStamps1.Location = New System.Drawing.Point(0, 0)
             Me.UcStamps1.Name = "UcStamps1"
-            Me.UcStamps1.Size = New System.Drawing.Size(616, 275)
+            Me.UcStamps1.Size = New System.Drawing.Size(604, 243)
             Me.UcStamps1.TabIndex = 0
             '
             'ucDwgLstTbLst

@@ -1,4 +1,4 @@
-Option Explicit On 
+Option Explicit On
 
 Imports System.Windows.Forms
 Imports System.Drawing
@@ -66,12 +66,12 @@ Namespace nsUserCtls
         Friend WithEvents miEP0608 As System.Windows.Forms.MenuItem
         Friend WithEvents miEP0702 As System.Windows.Forms.MenuItem
         Friend WithEvents cmnuE044DRNSubTbl As System.Windows.Forms.ContextMenu
-        Friend WithEvents miMkE044DRNTbl As System.Windows.Forms.MenuItem
         Friend WithEvents miTransToItmMstr As System.Windows.Forms.MenuItem
         Friend WithEvents miUpdateRelDocsDs As System.Windows.Forms.MenuItem
         Friend WithEvents DataGrid1 As System.Windows.Forms.DataGrid
         Friend WithEvents DataGrid6 As System.Windows.Forms.DataGrid
         Friend WithEvents miClrDRN As System.Windows.Forms.MenuItem
+        Friend WithEvents miMkE044DRNTbl As MenuItem
         Friend WithEvents miRptAllDRN As System.Windows.Forms.MenuItem
 
         <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
@@ -92,11 +92,11 @@ Namespace nsUserCtls
             Me.miClrDRN = New System.Windows.Forms.MenuItem()
             Me.Splitter1 = New System.Windows.Forms.Splitter()
             Me.cmnuE044DRNSubTbl = New System.Windows.Forms.ContextMenu()
-            Me.miMkE044DRNTbl = New System.Windows.Forms.MenuItem()
             Me.miUpdateRelDocsDs = New System.Windows.Forms.MenuItem()
             Me.miTransToItmMstr = New System.Windows.Forms.MenuItem()
             Me.DataGrid1 = New System.Windows.Forms.DataGrid()
             Me.DataGrid6 = New System.Windows.Forms.DataGrid()
+            Me.miMkE044DRNTbl = New System.Windows.Forms.MenuItem()
             CType(Me.dgE044DRN, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataGrid1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataGrid6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -197,11 +197,6 @@ Namespace nsUserCtls
             '
             Me.cmnuE044DRNSubTbl.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.miMkE044DRNTbl, Me.miUpdateRelDocsDs, Me.miTransToItmMstr})
             '
-            'miMkE044DRNTbl
-            '
-            Me.miMkE044DRNTbl.Index = 0
-            Me.miMkE044DRNTbl.Text = "Make E044 DRN Tbl"
-            '
             'miUpdateRelDocsDs
             '
             Me.miUpdateRelDocsDs.Index = 1
@@ -232,6 +227,11 @@ Namespace nsUserCtls
             Me.DataGrid6.Name = "DataGrid6"
             Me.DataGrid6.Size = New System.Drawing.Size(512, 181)
             Me.DataGrid6.TabIndex = 16
+            '
+            'miMkE044DRNTbl
+            '
+            Me.miMkE044DRNTbl.Index = 0
+            Me.miMkE044DRNTbl.Text = "Make E044 DRN Tbl"
             '
             'ucE044DRN
             '
@@ -453,7 +453,7 @@ Namespace nsUserCtls
 
                 If myDRV Is Nothing Then
                     AddResponse = MessageBox.Show("No match found. Press Ok To Add To Item Master", "Caption") ', MsgBoxStyle.OKCancel)
-                    If AddResponse = MsgBoxResult.OK Then
+                    If AddResponse = MsgBoxResult.Ok Then
                         If ecoID = Nothing Then
                             chdlg.rbNewDoc.Enabled = True
                             chdlg.rbNewDoc.Checked = True
@@ -508,7 +508,7 @@ Namespace nsUserCtls
                                            & "With This One          " & str & " - " & MyRow.Item(1) & " - " & myDRV("EngineeringDashNumber") & " - " & MyRow.Item(3), "Caption", MessageBoxButtons.OKCancel)
 
                     'increment dash number and revision while adding new record
-                    If UpdateResponse = MsgBoxResult.OK And chdlg.ChngType = "Non-Interchangeable" Then
+                    If UpdateResponse = MsgBoxResult.Ok And chdlg.ChngType = "Non-Interchangeable" Then
                         str = MyRow.Item(0) : str = str.Replace(".dwg", "") : str = str.Replace(".DWG", "")
                         MyNewRow = SqlDaComp.DataSet11.E024ItemMasterInput.NewRow
                         MyNewRow("EngineeringPartNumber") = str & " - " & MyRow.Item(1)
@@ -545,7 +545,7 @@ Namespace nsUserCtls
 
                     'if change is interchangeable must add new master "00" item with incremented revision+
                     'if bom assembly item ???
-                    If UpdateResponse = MsgBoxResult.OK And chdlg.ChngType = "Interchangeable" Then
+                    If UpdateResponse = MsgBoxResult.Ok And chdlg.ChngType = "Interchangeable" Then
                         str = MyRow.Item(0) : str = str.Replace(".dwg", "") : str = str.Replace(".DWG", "")
                         MyNewRow = SqlDaComp.DataSet11.E024ItemMasterInput.NewRow
                         MyNewRow("EngineeringPartNumber") = str & " - " & MyRow.Item(1)
@@ -577,7 +577,7 @@ Namespace nsUserCtls
                     End If
 
                     'increment revision only
-                    If UpdateResponse = MsgBoxResult.OK And chdlg.ChngType = "Documentation Only" Then
+                    If UpdateResponse = MsgBoxResult.Ok And chdlg.ChngType = "Documentation Only" Then
                         str = MyRow.Item(0) : str = str.Replace(".dwg", "") : str = str.Replace(".DWG", "")
                         MyNewRow = SqlDaComp.DataSet11.E024ItemMasterInput.NewRow
                         MyNewRow("EngineeringPartNumber") = str & " - " & MyRow.Item(1)
@@ -611,7 +611,7 @@ Namespace nsUserCtls
                 End If
             Next
 
-            If UpdateResponse = MsgBoxResult.OK Or AddResponse = MsgBoxResult.OK Then
+            If UpdateResponse = MsgBoxResult.Ok Or AddResponse = MsgBoxResult.Ok Then
                 ecoID = Nothing
 
                 Dim frm As frmMain = Me.FindForm() : frm.TabControl1.SelectedTab = frm.tpE037ECO
@@ -745,9 +745,9 @@ Namespace nsUserCtls
 #End Region
 
 
-       
 
-       
+
+
     End Class
 
 End Namespace

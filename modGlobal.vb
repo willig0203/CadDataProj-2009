@@ -1,4 +1,5 @@
-Option Explicit On 
+Option Explicit On
+Imports System
 
 Imports rnsCadDataProj.nsUserCtls
 Imports rnsCadDataProj.nsDataComp
@@ -38,7 +39,7 @@ Namespace nsMods
         Public rOnly As Boolean = False
         Public pathStrToHandBook As String = "C:\Users\willi\Desktop\CadDataProj 2009\-1. Engineering Procedures Handbook\"
         Public FolderName As String : Public OpenFileName As String : Public OpenFileNames As String()
-        Public cloneTable As System.data.DataTable
+        Public cloneTable As System.Data.DataTable
 
         Public dvE044DRN As DataView
 
