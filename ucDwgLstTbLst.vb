@@ -245,15 +245,15 @@ Namespace nsUserCtls
             Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
             Me.Panel1.Location = New System.Drawing.Point(0, 0)
             Me.Panel1.Name = "Panel1"
-            Me.Panel1.Size = New System.Drawing.Size(624, 176)
+            Me.Panel1.Size = New System.Drawing.Size(1593, 585)
             Me.Panel1.TabIndex = 27
             '
             'btnShowBrowserForm
             '
             Me.btnShowBrowserForm.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-            Me.btnShowBrowserForm.Location = New System.Drawing.Point(552, 48)
+            Me.btnShowBrowserForm.Location = New System.Drawing.Point(1111, 32)
             Me.btnShowBrowserForm.Name = "btnShowBrowserForm"
-            Me.btnShowBrowserForm.Size = New System.Drawing.Size(64, 48)
+            Me.btnShowBrowserForm.Size = New System.Drawing.Size(292, 48)
             Me.btnShowBrowserForm.TabIndex = 16
             Me.btnShowBrowserForm.Text = "Show Browser Form"
             '
@@ -263,30 +263,29 @@ Namespace nsUserCtls
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
             Me.Label1.Location = New System.Drawing.Point(8, 8)
             Me.Label1.Name = "Label1"
-            Me.Label1.Size = New System.Drawing.Size(608, 23)
+            Me.Label1.Size = New System.Drawing.Size(1577, 23)
             Me.Label1.TabIndex = 15
             Me.Label1.Text = "Select Folder"
             Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
             '
             'ListBox1
             '
-            Me.ListBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Me.ListBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
             Me.ListBox1.ContextMenu = Me.cmnuFileLst
             Me.ListBox1.HorizontalScrollbar = True
             Me.ListBox1.ItemHeight = 31
             Me.ListBox1.Location = New System.Drawing.Point(8, 32)
             Me.ListBox1.Name = "ListBox1"
-            Me.ListBox1.Size = New System.Drawing.Size(536, 128)
+            Me.ListBox1.Size = New System.Drawing.Size(783, 500)
             Me.ListBox1.TabIndex = 14
             '
             'btnShowBlockMan
             '
             Me.btnShowBlockMan.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-            Me.btnShowBlockMan.Location = New System.Drawing.Point(552, 104)
+            Me.btnShowBlockMan.Location = New System.Drawing.Point(1111, 86)
             Me.btnShowBlockMan.Name = "btnShowBlockMan"
-            Me.btnShowBlockMan.Size = New System.Drawing.Size(64, 48)
+            Me.btnShowBlockMan.Size = New System.Drawing.Size(292, 48)
             Me.btnShowBlockMan.TabIndex = 16
             Me.btnShowBlockMan.Text = "Show BlockMan"
             '
@@ -305,16 +304,16 @@ Namespace nsUserCtls
             Me.GroupBox1.Controls.Add(Me.chkbxCloseAndSave)
             Me.GroupBox1.Controls.Add(Me.chkbxAddRevsFrmLst)
             Me.GroupBox1.Controls.Add(Me.rbtnPltLayoutsDWF1to1)
-            Me.GroupBox1.Location = New System.Drawing.Point(4, 16)
+            Me.GroupBox1.Location = New System.Drawing.Point(635, 3)
             Me.GroupBox1.Name = "GroupBox1"
-            Me.GroupBox1.Size = New System.Drawing.Size(440, 224)
+            Me.GroupBox1.Size = New System.Drawing.Size(867, 383)
             Me.GroupBox1.TabIndex = 25
             Me.GroupBox1.TabStop = False
             '
             'chkbxFade255
             '
             Me.chkbxFade255.AutoSize = True
-            Me.chkbxFade255.Location = New System.Drawing.Point(8, 16)
+            Me.chkbxFade255.Location = New System.Drawing.Point(8, 20)
             Me.chkbxFade255.Name = "chkbxFade255"
             Me.chkbxFade255.Size = New System.Drawing.Size(173, 36)
             Me.chkbxFade255.TabIndex = 26
@@ -323,98 +322,98 @@ Namespace nsUserCtls
             '
             'rbtnMkDwfBook
             '
-            Me.rbtnMkDwfBook.Location = New System.Drawing.Point(8, 168)
+            Me.rbtnMkDwfBook.Location = New System.Drawing.Point(8, 286)
             Me.rbtnMkDwfBook.Name = "rbtnMkDwfBook"
-            Me.rbtnMkDwfBook.Size = New System.Drawing.Size(96, 24)
+            Me.rbtnMkDwfBook.Size = New System.Drawing.Size(314, 51)
             Me.rbtnMkDwfBook.TabIndex = 28
             Me.rbtnMkDwfBook.Text = "Mk Dwf Book"
             '
             'rbPltToFit
             '
-            Me.rbPltToFit.Location = New System.Drawing.Point(8, 32)
+            Me.rbPltToFit.Location = New System.Drawing.Point(8, 71)
             Me.rbPltToFit.Name = "rbPltToFit"
-            Me.rbPltToFit.Size = New System.Drawing.Size(104, 24)
+            Me.rbPltToFit.Size = New System.Drawing.Size(266, 42)
             Me.rbPltToFit.TabIndex = 27
             Me.rbPltToFit.Text = "Plt To Fit"
             '
             'chkbxAddNextRev
             '
-            Me.chkbxAddNextRev.Location = New System.Drawing.Point(136, 72)
+            Me.chkbxAddNextRev.Location = New System.Drawing.Point(392, 125)
             Me.chkbxAddNextRev.Name = "chkbxAddNextRev"
-            Me.chkbxAddNextRev.Size = New System.Drawing.Size(104, 24)
+            Me.chkbxAddNextRev.Size = New System.Drawing.Size(366, 44)
             Me.chkbxAddNextRev.TabIndex = 20
             Me.chkbxAddNextRev.Text = "Add Next Rev"
             '
             'chkbxAllLayouts
             '
-            Me.chkbxAllLayouts.Location = New System.Drawing.Point(216, 16)
+            Me.chkbxAllLayouts.Location = New System.Drawing.Point(392, 16)
             Me.chkbxAllLayouts.Name = "chkbxAllLayouts"
-            Me.chkbxAllLayouts.Size = New System.Drawing.Size(104, 24)
+            Me.chkbxAllLayouts.Size = New System.Drawing.Size(268, 36)
             Me.chkbxAllLayouts.TabIndex = 19
             Me.chkbxAllLayouts.Text = "All Layouts"
             '
             'rbtnPltwStoredSettings
             '
-            Me.rbtnPltwStoredSettings.Location = New System.Drawing.Point(8, 96)
+            Me.rbtnPltwStoredSettings.Location = New System.Drawing.Point(8, 185)
             Me.rbtnPltwStoredSettings.Name = "rbtnPltwStoredSettings"
-            Me.rbtnPltwStoredSettings.Size = New System.Drawing.Size(88, 32)
+            Me.rbtnPltwStoredSettings.Size = New System.Drawing.Size(288, 32)
             Me.rbtnPltwStoredSettings.TabIndex = 1
             Me.rbtnPltwStoredSettings.Text = "Plt w Stored Settings"
             '
             'rbtnPlt1to1
             '
-            Me.rbtnPlt1to1.Location = New System.Drawing.Point(8, 56)
+            Me.rbtnPlt1to1.Location = New System.Drawing.Point(8, 125)
             Me.rbtnPlt1to1.Name = "rbtnPlt1to1"
-            Me.rbtnPlt1to1.Size = New System.Drawing.Size(88, 40)
+            Me.rbtnPlt1to1.Size = New System.Drawing.Size(314, 40)
             Me.rbtnPlt1to1.TabIndex = 0
             Me.rbtnPlt1to1.Text = "Plt Layouts 1to1"
             '
             'chkbxCloseAndDiscard
             '
-            Me.chkbxCloseAndDiscard.Location = New System.Drawing.Point(272, 96)
+            Me.chkbxCloseAndDiscard.Location = New System.Drawing.Point(503, 317)
             Me.chkbxCloseAndDiscard.Name = "chkbxCloseAndDiscard"
-            Me.chkbxCloseAndDiscard.Size = New System.Drawing.Size(120, 24)
+            Me.chkbxCloseAndDiscard.Size = New System.Drawing.Size(315, 48)
             Me.chkbxCloseAndDiscard.TabIndex = 18
             Me.chkbxCloseAndDiscard.Text = "Close And Discard"
             '
             'chkbxClrRevs
             '
-            Me.chkbxClrRevs.Location = New System.Drawing.Point(136, 48)
+            Me.chkbxClrRevs.Location = New System.Drawing.Point(392, 73)
             Me.chkbxClrRevs.Name = "chkbxClrRevs"
-            Me.chkbxClrRevs.Size = New System.Drawing.Size(72, 24)
+            Me.chkbxClrRevs.Size = New System.Drawing.Size(268, 41)
             Me.chkbxClrRevs.TabIndex = 26
             Me.chkbxClrRevs.Text = "Clr Revs"
             '
             'chkbxCloseAndSave
             '
-            Me.chkbxCloseAndSave.Location = New System.Drawing.Point(272, 72)
+            Me.chkbxCloseAndSave.Location = New System.Drawing.Point(503, 262)
             Me.chkbxCloseAndSave.Name = "chkbxCloseAndSave"
-            Me.chkbxCloseAndSave.Size = New System.Drawing.Size(104, 24)
+            Me.chkbxCloseAndSave.Size = New System.Drawing.Size(289, 49)
             Me.chkbxCloseAndSave.TabIndex = 18
             Me.chkbxCloseAndSave.Text = "Close And Save"
             '
             'chkbxAddRevsFrmLst
             '
-            Me.chkbxAddRevsFrmLst.Location = New System.Drawing.Point(136, 96)
+            Me.chkbxAddRevsFrmLst.Location = New System.Drawing.Point(392, 181)
             Me.chkbxAddRevsFrmLst.Name = "chkbxAddRevsFrmLst"
-            Me.chkbxAddRevsFrmLst.Size = New System.Drawing.Size(120, 24)
+            Me.chkbxAddRevsFrmLst.Size = New System.Drawing.Size(366, 43)
             Me.chkbxAddRevsFrmLst.TabIndex = 20
             Me.chkbxAddRevsFrmLst.Text = "Add Revs Frm Lst"
             '
             'rbtnPltLayoutsDWF1to1
             '
-            Me.rbtnPltLayoutsDWF1to1.Location = New System.Drawing.Point(8, 128)
+            Me.rbtnPltLayoutsDWF1to1.Location = New System.Drawing.Point(8, 234)
             Me.rbtnPltLayoutsDWF1to1.Name = "rbtnPltLayoutsDWF1to1"
-            Me.rbtnPltLayoutsDWF1to1.Size = New System.Drawing.Size(88, 40)
+            Me.rbtnPltLayoutsDWF1to1.Size = New System.Drawing.Size(366, 40)
             Me.rbtnPltLayoutsDWF1to1.TabIndex = 0
             Me.rbtnPltLayoutsDWF1to1.Text = "Plt Layouts DWF1to1"
             '
             'Splitter1
             '
             Me.Splitter1.Dock = System.Windows.Forms.DockStyle.Top
-            Me.Splitter1.Location = New System.Drawing.Point(0, 176)
+            Me.Splitter1.Location = New System.Drawing.Point(0, 585)
             Me.Splitter1.Name = "Splitter1"
-            Me.Splitter1.Size = New System.Drawing.Size(624, 3)
+            Me.Splitter1.Size = New System.Drawing.Size(1593, 4)
             Me.Splitter1.TabIndex = 28
             Me.Splitter1.TabStop = False
             '
@@ -429,10 +428,10 @@ Namespace nsUserCtls
             Me.TabControl2.Controls.Add(Me.tpTransmitDocsData)
             Me.TabControl2.Controls.Add(Me.tpStamps)
             Me.TabControl2.Dock = System.Windows.Forms.DockStyle.Fill
-            Me.TabControl2.Location = New System.Drawing.Point(0, 179)
+            Me.TabControl2.Location = New System.Drawing.Point(0, 589)
             Me.TabControl2.Name = "TabControl2"
             Me.TabControl2.SelectedIndex = 0
-            Me.TabControl2.Size = New System.Drawing.Size(624, 301)
+            Me.TabControl2.Size = New System.Drawing.Size(1593, 447)
             Me.TabControl2.TabIndex = 29
             '
             'tpGridView
@@ -440,7 +439,7 @@ Namespace nsUserCtls
             Me.tpGridView.Controls.Add(Me.dgBldLst)
             Me.tpGridView.Location = New System.Drawing.Point(10, 48)
             Me.tpGridView.Name = "tpGridView"
-            Me.tpGridView.Size = New System.Drawing.Size(604, 243)
+            Me.tpGridView.Size = New System.Drawing.Size(1573, 389)
             Me.tpGridView.TabIndex = 2
             Me.tpGridView.Text = "Grid View"
             '
@@ -448,11 +447,10 @@ Namespace nsUserCtls
             '
             Me.dgBldLst.ContextMenu = Me.cmnuTransToNewFrm
             Me.dgBldLst.DataMember = ""
-            Me.dgBldLst.Dock = System.Windows.Forms.DockStyle.Fill
             Me.dgBldLst.HeaderForeColor = System.Drawing.SystemColors.ControlText
             Me.dgBldLst.Location = New System.Drawing.Point(0, 0)
             Me.dgBldLst.Name = "dgBldLst"
-            Me.dgBldLst.Size = New System.Drawing.Size(604, 243)
+            Me.dgBldLst.Size = New System.Drawing.Size(1573, 709)
             Me.dgBldLst.TabIndex = 0
             '
             'tpListBox
@@ -462,7 +460,7 @@ Namespace nsUserCtls
             Me.tpListBox.Controls.Add(Me.ListBox3)
             Me.tpListBox.Location = New System.Drawing.Point(10, 48)
             Me.tpListBox.Name = "tpListBox"
-            Me.tpListBox.Size = New System.Drawing.Size(604, 243)
+            Me.tpListBox.Size = New System.Drawing.Size(1573, 389)
             Me.tpListBox.TabIndex = 0
             Me.tpListBox.Text = "List Box"
             Me.tpListBox.Visible = False
@@ -474,7 +472,7 @@ Namespace nsUserCtls
             Me.lstBxXrefs.ItemHeight = 31
             Me.lstBxXrefs.Location = New System.Drawing.Point(0, 100)
             Me.lstBxXrefs.Name = "lstBxXrefs"
-            Me.lstBxXrefs.Size = New System.Drawing.Size(604, 143)
+            Me.lstBxXrefs.Size = New System.Drawing.Size(1573, 289)
             Me.lstBxXrefs.TabIndex = 19
             '
             'Splitter2
@@ -482,7 +480,7 @@ Namespace nsUserCtls
             Me.Splitter2.Dock = System.Windows.Forms.DockStyle.Top
             Me.Splitter2.Location = New System.Drawing.Point(0, 97)
             Me.Splitter2.Name = "Splitter2"
-            Me.Splitter2.Size = New System.Drawing.Size(604, 3)
+            Me.Splitter2.Size = New System.Drawing.Size(1573, 3)
             Me.Splitter2.TabIndex = 18
             Me.Splitter2.TabStop = False
             '
@@ -492,7 +490,7 @@ Namespace nsUserCtls
             Me.ListBox3.ItemHeight = 31
             Me.ListBox3.Location = New System.Drawing.Point(0, 0)
             Me.ListBox3.Name = "ListBox3"
-            Me.ListBox3.Size = New System.Drawing.Size(604, 97)
+            Me.ListBox3.Size = New System.Drawing.Size(1573, 97)
             Me.ListBox3.TabIndex = 17
             '
             'tpBlockList
@@ -521,7 +519,7 @@ Namespace nsUserCtls
             Me.tpRevisions.Controls.Add(Me.UcRevisions1)
             Me.tpRevisions.Location = New System.Drawing.Point(10, 48)
             Me.tpRevisions.Name = "tpRevisions"
-            Me.tpRevisions.Size = New System.Drawing.Size(604, 243)
+            Me.tpRevisions.Size = New System.Drawing.Size(1573, 389)
             Me.tpRevisions.TabIndex = 3
             Me.tpRevisions.Text = "Revisions"
             '
@@ -530,7 +528,7 @@ Namespace nsUserCtls
             Me.UcRevisions1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.UcRevisions1.Location = New System.Drawing.Point(0, 0)
             Me.UcRevisions1.Name = "UcRevisions1"
-            Me.UcRevisions1.Size = New System.Drawing.Size(604, 243)
+            Me.UcRevisions1.Size = New System.Drawing.Size(1573, 389)
             Me.UcRevisions1.TabIndex = 0
             '
             'tpAttOptions
@@ -538,7 +536,7 @@ Namespace nsUserCtls
             Me.tpAttOptions.Controls.Add(Me.UcAttOptions1)
             Me.tpAttOptions.Location = New System.Drawing.Point(10, 48)
             Me.tpAttOptions.Name = "tpAttOptions"
-            Me.tpAttOptions.Size = New System.Drawing.Size(604, 243)
+            Me.tpAttOptions.Size = New System.Drawing.Size(1573, 389)
             Me.tpAttOptions.TabIndex = 7
             Me.tpAttOptions.Text = "Att Options"
             '
@@ -547,7 +545,7 @@ Namespace nsUserCtls
             Me.UcAttOptions1.Dock = System.Windows.Forms.DockStyle.Fill
             Me.UcAttOptions1.Location = New System.Drawing.Point(0, 0)
             Me.UcAttOptions1.Name = "UcAttOptions1"
-            Me.UcAttOptions1.Size = New System.Drawing.Size(604, 243)
+            Me.UcAttOptions1.Size = New System.Drawing.Size(1573, 389)
             Me.UcAttOptions1.TabIndex = 0
             '
             'tpBatchOptions
@@ -555,7 +553,7 @@ Namespace nsUserCtls
             Me.tpBatchOptions.Controls.Add(Me.GroupBox1)
             Me.tpBatchOptions.Location = New System.Drawing.Point(10, 48)
             Me.tpBatchOptions.Name = "tpBatchOptions"
-            Me.tpBatchOptions.Size = New System.Drawing.Size(604, 243)
+            Me.tpBatchOptions.Size = New System.Drawing.Size(1573, 389)
             Me.tpBatchOptions.TabIndex = 5
             Me.tpBatchOptions.Text = "Batch Options"
             '
@@ -563,7 +561,7 @@ Namespace nsUserCtls
             '
             Me.tpTransmitDocsData.Location = New System.Drawing.Point(10, 48)
             Me.tpTransmitDocsData.Name = "tpTransmitDocsData"
-            Me.tpTransmitDocsData.Size = New System.Drawing.Size(604, 243)
+            Me.tpTransmitDocsData.Size = New System.Drawing.Size(1573, 389)
             Me.tpTransmitDocsData.TabIndex = 6
             Me.tpTransmitDocsData.Text = "Transmit Docs & Data"
             '
@@ -590,7 +588,7 @@ Namespace nsUserCtls
             Me.Controls.Add(Me.Splitter1)
             Me.Controls.Add(Me.Panel1)
             Me.Name = "ucDwgLstTbLst"
-            Me.Size = New System.Drawing.Size(624, 480)
+            Me.Size = New System.Drawing.Size(1593, 1036)
             Me.Panel1.ResumeLayout(False)
             Me.GroupBox1.ResumeLayout(False)
             Me.GroupBox1.PerformLayout()
@@ -1068,7 +1066,7 @@ Namespace nsUserCtls
 
             For Each item In ListBox1.Items  ' add - check for images and xrefs
                 If currLayout <> "" Then currLayout = ""
-                '   Doc = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.Open(item, False)
+                Doc = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager.Open(item, False)
 
                 xRefStr = ""
                 TestXrefPrint()
@@ -1471,8 +1469,15 @@ Namespace nsUserCtls
         End Sub
 
         Private Sub btnShowBrowserForm_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShowBrowserForm.Click
-            'Dim frmBrowser As New BrowserForm
-            'frmBrowser.Show()
+            OpenFileDialog1.InitialDirectory = "C:\"
+            OpenFileDialog1.FileName = "Open A File..."
+            OpenFileDialog1.Multiselect = True
+            OpenFileDialog1.Filter = "Dwg Files|*.dwg"
+            If OpenFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+                'Dim sName As String = OpenFileDialog1.SafeFileName
+                ListBox1.Items.AddRange(OpenFileDialog1.FileNames)
+
+            End If
         End Sub
 
         Private Sub btnShowBlockMan_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnShowBlockMan.Click
