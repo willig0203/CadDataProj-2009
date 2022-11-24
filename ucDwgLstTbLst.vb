@@ -498,7 +498,7 @@ Namespace nsUserCtls
             Me.tpBlockList.Controls.Add(Me.DataGrid4)
             Me.tpBlockList.Location = New System.Drawing.Point(10, 48)
             Me.tpBlockList.Name = "tpBlockList"
-            Me.tpBlockList.Size = New System.Drawing.Size(604, 243)
+            Me.tpBlockList.Size = New System.Drawing.Size(1573, 389)
             Me.tpBlockList.TabIndex = 1
             Me.tpBlockList.Text = "Block List"
             Me.tpBlockList.Visible = False
@@ -511,7 +511,7 @@ Namespace nsUserCtls
             Me.DataGrid4.HeaderForeColor = System.Drawing.SystemColors.ControlText
             Me.DataGrid4.Location = New System.Drawing.Point(0, 0)
             Me.DataGrid4.Name = "DataGrid4"
-            Me.DataGrid4.Size = New System.Drawing.Size(604, 243)
+            Me.DataGrid4.Size = New System.Drawing.Size(1573, 389)
             Me.DataGrid4.TabIndex = 0
             '
             'tpRevisions
