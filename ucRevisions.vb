@@ -57,27 +57,27 @@ Namespace nsUserCtls
         Friend WithEvents btnAddNextRev As System.Windows.Forms.Button
         Friend WithEvents chkbxUseLetters As System.Windows.Forms.CheckBox
         <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-            Me.btnAddRevsFrmLst = New System.Windows.Forms.Button
-            Me.chkbxJustCurLayout = New System.Windows.Forms.CheckBox
-            Me.btnClrRevsLst = New System.Windows.Forms.Button
-            Me.btnGetRevs = New System.Windows.Forms.Button
-            Me.lbRevsFromCurFile = New System.Windows.Forms.ListBox
-            Me.lblNewRev = New System.Windows.Forms.Label
-            Me.dtpRevDate = New System.Windows.Forms.DateTimePicker
-            Me.cbRevBy = New System.Windows.Forms.ComboBox
-            Me.cbRevTxt = New System.Windows.Forms.ComboBox
-            Me.btnSeeNewRev = New System.Windows.Forms.Button
-            Me.tbRevId = New System.Windows.Forms.TextBox
-            Me.btnClrRevs = New System.Windows.Forms.Button
-            Me.btnAddNextRev = New System.Windows.Forms.Button
-            Me.chkbxUseLetters = New System.Windows.Forms.CheckBox
+            Me.btnAddRevsFrmLst = New System.Windows.Forms.Button()
+            Me.chkbxJustCurLayout = New System.Windows.Forms.CheckBox()
+            Me.btnClrRevsLst = New System.Windows.Forms.Button()
+            Me.btnGetRevs = New System.Windows.Forms.Button()
+            Me.lbRevsFromCurFile = New System.Windows.Forms.ListBox()
+            Me.lblNewRev = New System.Windows.Forms.Label()
+            Me.dtpRevDate = New System.Windows.Forms.DateTimePicker()
+            Me.cbRevBy = New System.Windows.Forms.ComboBox()
+            Me.cbRevTxt = New System.Windows.Forms.ComboBox()
+            Me.btnSeeNewRev = New System.Windows.Forms.Button()
+            Me.tbRevId = New System.Windows.Forms.TextBox()
+            Me.btnClrRevs = New System.Windows.Forms.Button()
+            Me.btnAddNextRev = New System.Windows.Forms.Button()
+            Me.chkbxUseLetters = New System.Windows.Forms.CheckBox()
             Me.SuspendLayout()
             '
             'btnAddRevsFrmLst
             '
-            Me.btnAddRevsFrmLst.Location = New System.Drawing.Point(24, 184)
+            Me.btnAddRevsFrmLst.Location = New System.Drawing.Point(77, 537)
             Me.btnAddRevsFrmLst.Name = "btnAddRevsFrmLst"
-            Me.btnAddRevsFrmLst.Size = New System.Drawing.Size(104, 23)
+            Me.btnAddRevsFrmLst.Size = New System.Drawing.Size(376, 67)
             Me.btnAddRevsFrmLst.TabIndex = 19
             Me.btnAddRevsFrmLst.Text = "Add Revs Frm Lst"
             '
@@ -85,109 +85,110 @@ Namespace nsUserCtls
             '
             Me.chkbxJustCurLayout.Checked = True
             Me.chkbxJustCurLayout.CheckState = System.Windows.Forms.CheckState.Checked
-            Me.chkbxJustCurLayout.Location = New System.Drawing.Point(432, 72)
+            Me.chkbxJustCurLayout.Location = New System.Drawing.Point(327, 298)
             Me.chkbxJustCurLayout.Name = "chkbxJustCurLayout"
-            Me.chkbxJustCurLayout.Size = New System.Drawing.Size(96, 24)
+            Me.chkbxJustCurLayout.Size = New System.Drawing.Size(300, 53)
             Me.chkbxJustCurLayout.TabIndex = 18
             Me.chkbxJustCurLayout.Text = "JustCurLayout"
             '
             'btnClrRevsLst
             '
-            Me.btnClrRevsLst.Location = New System.Drawing.Point(304, 72)
+            Me.btnClrRevsLst.Location = New System.Drawing.Point(313, 217)
             Me.btnClrRevsLst.Name = "btnClrRevsLst"
-            Me.btnClrRevsLst.Size = New System.Drawing.Size(96, 23)
+            Me.btnClrRevsLst.Size = New System.Drawing.Size(272, 52)
             Me.btnClrRevsLst.TabIndex = 17
             Me.btnClrRevsLst.Text = "Clr Revs Lst"
             '
             'btnGetRevs
             '
-            Me.btnGetRevs.Location = New System.Drawing.Point(48, 120)
+            Me.btnGetRevs.Location = New System.Drawing.Point(77, 376)
             Me.btnGetRevs.Name = "btnGetRevs"
-            Me.btnGetRevs.Size = New System.Drawing.Size(80, 23)
+            Me.btnGetRevs.Size = New System.Drawing.Size(376, 62)
             Me.btnGetRevs.TabIndex = 16
             Me.btnGetRevs.Text = "Get Revs"
             '
             'lbRevsFromCurFile
             '
             Me.lbRevsFromCurFile.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                        Or System.Windows.Forms.AnchorStyles.Left) _
-                        Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-            Me.lbRevsFromCurFile.Location = New System.Drawing.Point(144, 104)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Me.lbRevsFromCurFile.ItemHeight = 31
+            Me.lbRevsFromCurFile.Location = New System.Drawing.Point(759, 321)
             Me.lbRevsFromCurFile.Name = "lbRevsFromCurFile"
-            Me.lbRevsFromCurFile.Size = New System.Drawing.Size(432, 173)
+            Me.lbRevsFromCurFile.Size = New System.Drawing.Size(907, 438)
             Me.lbRevsFromCurFile.TabIndex = 15
             '
             'lblNewRev
             '
-            Me.lblNewRev.Location = New System.Drawing.Point(8, 8)
+            Me.lblNewRev.Location = New System.Drawing.Point(18, -9)
             Me.lblNewRev.Name = "lblNewRev"
-            Me.lblNewRev.Size = New System.Drawing.Size(464, 23)
+            Me.lblNewRev.Size = New System.Drawing.Size(735, 97)
             Me.lblNewRev.TabIndex = 13
             Me.lblNewRev.Text = "lblNewRev"
             '
             'dtpRevDate
             '
             Me.dtpRevDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-            Me.dtpRevDate.Location = New System.Drawing.Point(88, 40)
+            Me.dtpRevDate.Location = New System.Drawing.Point(86, 111)
             Me.dtpRevDate.Name = "dtpRevDate"
-            Me.dtpRevDate.Size = New System.Drawing.Size(88, 20)
+            Me.dtpRevDate.Size = New System.Drawing.Size(202, 38)
             Me.dtpRevDate.TabIndex = 12
             '
             'cbRevBy
             '
             Me.cbRevBy.Items.AddRange(New Object() {"GDW", "XXX"})
-            Me.cbRevBy.Location = New System.Drawing.Point(184, 40)
+            Me.cbRevBy.Location = New System.Drawing.Point(294, 111)
             Me.cbRevBy.Name = "cbRevBy"
-            Me.cbRevBy.Size = New System.Drawing.Size(104, 21)
+            Me.cbRevBy.Size = New System.Drawing.Size(151, 39)
             Me.cbRevBy.TabIndex = 11
             Me.cbRevBy.Text = "cbRevBy"
             '
             'cbRevTxt
             '
             Me.cbRevTxt.Items.AddRange(New Object() {"Owner Control", "Preliminary", "Issued For Bid", "Issued For Construction"})
-            Me.cbRevTxt.Location = New System.Drawing.Point(296, 40)
+            Me.cbRevTxt.Location = New System.Drawing.Point(461, 114)
             Me.cbRevTxt.Name = "cbRevTxt"
-            Me.cbRevTxt.Size = New System.Drawing.Size(280, 21)
+            Me.cbRevTxt.Size = New System.Drawing.Size(280, 39)
             Me.cbRevTxt.TabIndex = 10
             Me.cbRevTxt.Text = "cbRevTxt"
             '
             'btnSeeNewRev
             '
-            Me.btnSeeNewRev.Location = New System.Drawing.Point(184, 72)
+            Me.btnSeeNewRev.Location = New System.Drawing.Point(313, 163)
             Me.btnSeeNewRev.Name = "btnSeeNewRev"
-            Me.btnSeeNewRev.Size = New System.Drawing.Size(96, 23)
+            Me.btnSeeNewRev.Size = New System.Drawing.Size(272, 52)
             Me.btnSeeNewRev.TabIndex = 14
             Me.btnSeeNewRev.Text = "See New Rev"
             '
             'tbRevId
             '
-            Me.tbRevId.Location = New System.Drawing.Point(8, 40)
+            Me.tbRevId.Location = New System.Drawing.Point(8, 112)
             Me.tbRevId.Name = "tbRevId"
-            Me.tbRevId.Size = New System.Drawing.Size(72, 20)
+            Me.tbRevId.Size = New System.Drawing.Size(72, 38)
             Me.tbRevId.TabIndex = 20
             Me.tbRevId.Text = "0"
             '
             'btnClrRevs
             '
-            Me.btnClrRevs.Location = New System.Drawing.Point(48, 152)
+            Me.btnClrRevs.Location = New System.Drawing.Point(77, 464)
             Me.btnClrRevs.Name = "btnClrRevs"
-            Me.btnClrRevs.Size = New System.Drawing.Size(80, 24)
+            Me.btnClrRevs.Size = New System.Drawing.Size(376, 54)
             Me.btnClrRevs.TabIndex = 21
             Me.btnClrRevs.Text = "Clr Revs"
             '
             'btnAddNextRev
             '
-            Me.btnAddNextRev.Location = New System.Drawing.Point(24, 216)
+            Me.btnAddNextRev.Location = New System.Drawing.Point(77, 636)
             Me.btnAddNextRev.Name = "btnAddNextRev"
-            Me.btnAddNextRev.Size = New System.Drawing.Size(104, 23)
+            Me.btnAddNextRev.Size = New System.Drawing.Size(376, 63)
             Me.btnAddNextRev.TabIndex = 22
             Me.btnAddNextRev.Text = "Add Next Rev"
             '
             'chkbxUseLetters
             '
-            Me.chkbxUseLetters.Location = New System.Drawing.Point(24, 72)
+            Me.chkbxUseLetters.Location = New System.Drawing.Point(24, 245)
             Me.chkbxUseLetters.Name = "chkbxUseLetters"
-            Me.chkbxUseLetters.Size = New System.Drawing.Size(88, 24)
+            Me.chkbxUseLetters.Size = New System.Drawing.Size(264, 53)
             Me.chkbxUseLetters.TabIndex = 23
             Me.chkbxUseLetters.Text = "Use Letters"
             '
@@ -208,8 +209,9 @@ Namespace nsUserCtls
             Me.Controls.Add(Me.cbRevBy)
             Me.Controls.Add(Me.cbRevTxt)
             Me.Name = "ucRevisions"
-            Me.Size = New System.Drawing.Size(592, 296)
+            Me.Size = New System.Drawing.Size(1682, 816)
             Me.ResumeLayout(False)
+            Me.PerformLayout()
 
         End Sub
 

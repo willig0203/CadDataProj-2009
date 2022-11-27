@@ -92,11 +92,11 @@ Namespace nsUserCtls
             Me.miClrDRN = New System.Windows.Forms.MenuItem()
             Me.Splitter1 = New System.Windows.Forms.Splitter()
             Me.cmnuE044DRNSubTbl = New System.Windows.Forms.ContextMenu()
+            Me.miMkE044DRNTbl = New System.Windows.Forms.MenuItem()
             Me.miUpdateRelDocsDs = New System.Windows.Forms.MenuItem()
             Me.miTransToItmMstr = New System.Windows.Forms.MenuItem()
             Me.DataGrid1 = New System.Windows.Forms.DataGrid()
             Me.DataGrid6 = New System.Windows.Forms.DataGrid()
-            Me.miMkE044DRNTbl = New System.Windows.Forms.MenuItem()
             CType(Me.dgE044DRN, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataGrid1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataGrid6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -110,7 +110,7 @@ Namespace nsUserCtls
             Me.dgE044DRN.HeaderForeColor = System.Drawing.SystemColors.ControlText
             Me.dgE044DRN.Location = New System.Drawing.Point(0, 0)
             Me.dgE044DRN.Name = "dgE044DRN"
-            Me.dgE044DRN.Size = New System.Drawing.Size(512, 224)
+            Me.dgE044DRN.Size = New System.Drawing.Size(1002, 224)
             Me.dgE044DRN.TabIndex = 13
             Me.dgE044DRN.Tag = ""
             '
@@ -189,13 +189,18 @@ Namespace nsUserCtls
             Me.Splitter1.Dock = System.Windows.Forms.DockStyle.Top
             Me.Splitter1.Location = New System.Drawing.Point(0, 224)
             Me.Splitter1.Name = "Splitter1"
-            Me.Splitter1.Size = New System.Drawing.Size(512, 3)
+            Me.Splitter1.Size = New System.Drawing.Size(1002, 3)
             Me.Splitter1.TabIndex = 14
             Me.Splitter1.TabStop = False
             '
             'cmnuE044DRNSubTbl
             '
             Me.cmnuE044DRNSubTbl.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.miMkE044DRNTbl, Me.miUpdateRelDocsDs, Me.miTransToItmMstr})
+            '
+            'miMkE044DRNTbl
+            '
+            Me.miMkE044DRNTbl.Index = 0
+            Me.miMkE044DRNTbl.Text = "Make E044 DRN Tbl"
             '
             'miUpdateRelDocsDs
             '
@@ -211,7 +216,7 @@ Namespace nsUserCtls
             '
             Me.DataGrid1.DataMember = ""
             Me.DataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText
-            Me.DataGrid1.Location = New System.Drawing.Point(312, 144)
+            Me.DataGrid1.Location = New System.Drawing.Point(735, 167)
             Me.DataGrid1.Name = "DataGrid1"
             Me.DataGrid1.Size = New System.Drawing.Size(168, 152)
             Me.DataGrid1.TabIndex = 15
@@ -225,13 +230,8 @@ Namespace nsUserCtls
             Me.DataGrid6.HeaderForeColor = System.Drawing.SystemColors.ControlText
             Me.DataGrid6.Location = New System.Drawing.Point(0, 227)
             Me.DataGrid6.Name = "DataGrid6"
-            Me.DataGrid6.Size = New System.Drawing.Size(512, 181)
+            Me.DataGrid6.Size = New System.Drawing.Size(1002, 495)
             Me.DataGrid6.TabIndex = 16
-            '
-            'miMkE044DRNTbl
-            '
-            Me.miMkE044DRNTbl.Index = 0
-            Me.miMkE044DRNTbl.Text = "Make E044 DRN Tbl"
             '
             'ucE044DRN
             '
@@ -240,7 +240,7 @@ Namespace nsUserCtls
             Me.Controls.Add(Me.Splitter1)
             Me.Controls.Add(Me.dgE044DRN)
             Me.Name = "ucE044DRN"
-            Me.Size = New System.Drawing.Size(512, 408)
+            Me.Size = New System.Drawing.Size(1002, 722)
             CType(Me.dgE044DRN, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.DataGrid1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.DataGrid6, System.ComponentModel.ISupportInitialize).EndInit()
